@@ -1,8 +1,6 @@
 name: Islandking Changelog -> Discord
 
 on:
-  schedule:
-    - cron: "7,37 * * * *"  # bewusst keine volle/halbe Stunde, weniger Stau bei GitHub
   workflow_dispatch: {}      # erlaubt manuellen Start über den "Run workflow"-Button
 
 permissions:
