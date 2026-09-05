@@ -1,6 +1,6 @@
 #Changelog → Discord
 
-Postet automatisch neue Einträge aus dem Islandking-Changelog in einen Discord-Channel.
+Postet automatisch neue Einträge aus dem Changelog in einen Discord-Channel.
 
 Kein Login nötig – die Changelog-Seite ist eine öffentliche
 Route, deren Inhalte direkt (unauthentifiziert) im JavaScript der Seite
