@@ -170,7 +170,26 @@ function supplementEmbed(entry, addedItems) {
   };
 }
 
+/**
+ * Manueller Nachtrag (workflow_dispatch-Inputs MANUAL_TITLE/MANUAL_DATE/MANUAL_ITEMS):
+ * postet ein einzelnes Ergänzung-Embed für ein bereits bekanntes Datum, ohne die
+ * normale Prüfung/den State anzufassen. Für Fälle, in denen eine Ergänzung durch die
+ * Migration alter State-Dateien (siehe loadKnownEntries) durchgerutscht ist.
+ */
+async function postManualSupplement() {
+  const items = process.env.MANUAL_ITEMS.split("\n").map((s) => s.trim()).filter(Boolean);
+  await postToDiscord(
+    supplementEmbed({ title: process.env.MANUAL_TITLE, date: process.env.MANUAL_DATE }, items)
+  );
+  console.log(`Manuelle Ergänzung gepostet: ${process.env.MANUAL_TITLE}`);
+}
+
 async function main() {
+  if (process.env.MANUAL_TITLE) {
+    await postManualSupplement();
+    return;
+  }
+
   const chunkUrl = await getChangelogChunkUrl();
   console.log(`Changelog-Chunk gefunden: ${chunkUrl}`);
 
