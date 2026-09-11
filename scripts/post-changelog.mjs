@@ -10,7 +10,9 @@
  *  3. Changelog-Chunk laden -> das eingebettete Datenarray extrahieren
  *  4. Mit dem gespeicherten Stand (state/posted.json) vergleichen
  *  5. Neue Einträge (ältester zuerst) als Discord-Embeds posten
- *  6. Neuen Stand speichern (wird von der GitHub Action zurückcommittet)
+ *  6. Bei bereits bekannten Einträgen: neu hinzugekommene Punkte als
+ *     separates "Ergänzung"-Embed posten
+ *  7. Neuen Stand speichern (wird von der GitHub Action zurückcommittet)
  */
 
 import { readFile, writeFile, mkdir } from "node:fs/promises";
@@ -62,7 +64,7 @@ function extractArrayLiteral(src) {
   const start = startMatch.index;
 
   let depth = 0;
-  let quote = null; // aktuelles Anführungszeichen (" oder '), falls wir gerade in einem String sind
+  let quote = null;
   let esc = false;
   let end = -1;
 
@@ -107,46 +109,65 @@ function entryId(entry) {
   return createHash("sha256").update(`${entry.date}::${entry.title}`).digest("hex");
 }
 
-async function loadKnownIds() {
+/**
+ * State-Format: { [id]: items[] }. Ältere Läufe schrieben ein reines Array
+ * von IDs (ohne items) - wird beim Laden transparent migriert; für diese
+ * IDs gibt es dann noch keine Baseline zum Diffen, das holt der nächste Lauf nach.
+ */
+async function loadKnownEntries() {
   try {
     const raw = await readFile(STATE_PATH, "utf-8");
-    return new Set(JSON.parse(raw));
+    const parsed = JSON.parse(raw);
+    if (Array.isArray(parsed)) {
+      return { known: new Map(parsed.map((id) => [id, null])), isFirstRun: false };
+    }
+    return { known: new Map(Object.entries(parsed)), isFirstRun: false };
   } catch (err) {
-    if (err.code === "ENOENT") return null; // kein State vorhanden -> erster Lauf
+    if (err.code === "ENOENT") return { known: null, isFirstRun: true };
     throw err;
   }
 }
 
-async function saveKnownIds(ids) {
+async function saveKnownEntries(known) {
   await mkdir(path.dirname(STATE_PATH), { recursive: true });
-  await writeFile(STATE_PATH, JSON.stringify([...ids], null, 2) + "\n", "utf-8");
+  const obj = Object.fromEntries(known);
+  await writeFile(STATE_PATH, JSON.stringify(obj, null, 2) + "\n", "utf-8");
 }
 
-async function postToDiscord(entry) {
-  const description = entry.items.map((i) => `• ${i}`).join("\n").slice(0, 4096);
-
+async function postToDiscord(embed) {
   const res = await fetch(`https://discord.com/api/v10/channels/${DISCORD_CHANNEL_ID}/messages`, {
     method: "POST",
     headers: {
       Authorization: `Bot ${DISCORD_BOT_TOKEN}`,
       "Content-Type": "application/json",
     },
-    body: JSON.stringify({
-      embeds: [
-        {
-          title: entry.title.slice(0, 256),
-          description,
-          footer: { text: entry.date },
-          color: 0x0a3a5b,
-        },
-      ],
-    }),
+    body: JSON.stringify({ embeds: [embed] }),
   });
 
   if (!res.ok) {
     const body = await res.text();
     throw new Error(`Discord-API-Fehler ${res.status}: ${body}`);
   }
+}
+
+function entryEmbed(entry) {
+  const description = entry.items.map((i) => `• ${i}`).join("\n").slice(0, 4096);
+  return {
+    title: entry.title.slice(0, 256),
+    description,
+    footer: { text: entry.date },
+    color: 0x0a3a5b,
+  };
+}
+
+function supplementEmbed(entry, addedItems) {
+  const description = addedItems.map((i) => `• ${i}`).join("\n").slice(0, 4096);
+  return {
+    title: `Ergänzung: ${entry.title}`.slice(0, 256),
+    description,
+    footer: { text: entry.date },
+    color: 0xb8860b,
+  };
 }
 
 async function main() {
@@ -158,35 +179,54 @@ async function main() {
   const entries = parseEntries(arrayLiteral);
   console.log(`${entries.length} Einträge im Changelog gefunden.`);
 
-  const allIds = new Set(entries.map(entryId));
-  const known = await loadKnownIds();
+  const { known, isFirstRun } = await loadKnownEntries();
 
-  if (known === null) {
-    // Erster Lauf: aktuellen Stand nur als "bekannt" speichern, nichts posten,
-    // damit nicht sofort die komplette Historie in den Channel geflutet wird.
-    await saveKnownIds(allIds);
+  if (isFirstRun) {
+    const initial = new Map(entries.map((e) => [entryId(e), e.items]));
+    await saveKnownEntries(initial);
     console.log(`Erster Lauf: ${entries.length} bestehende Einträge als bekannt markiert, nichts gepostet.`);
     return;
   }
 
-  const newEntries = entries.filter((e) => !known.has(entryId(e)));
+  const newEntries = [];
+  const changedEntries = []; // { entry, addedItems }
 
-  if (newEntries.length === 0) {
-    console.log("Keine neuen Einträge.");
+  for (const entry of entries) {
+    const id = entryId(entry);
+    if (!known.has(id)) {
+      newEntries.push(entry);
+      continue;
+    }
+    const oldItems = known.get(id);
+    if (oldItems === null) continue; // migrierte Alt-ID ohne Baseline, nichts zu vergleichen
+    const addedItems = entry.items.filter((i) => !oldItems.includes(i));
+    if (addedItems.length > 0) {
+      changedEntries.push({ entry, addedItems });
+    }
+  }
+
+  if (newEntries.length === 0 && changedEntries.length === 0) {
+    console.log("Keine neuen oder geänderten Einträge.");
     return;
   }
 
-  // Im Array steht das Neueste zuerst -> zum Posten umdrehen, damit die
-  // Reihenfolge im Discord-Channel chronologisch stimmt.
   newEntries.reverse();
+  changedEntries.reverse();
 
   for (const entry of newEntries) {
-    await postToDiscord(entry);
+    await postToDiscord(entryEmbed(entry));
     console.log(`Gepostet: ${entry.title}`);
-    await new Promise((r) => setTimeout(r, 1000)); // kleiner Puffer gegen Discord-Rate-Limits
+    await new Promise((r) => setTimeout(r, 1000));
   }
 
-  await saveKnownIds(allIds);
+  for (const { entry, addedItems } of changedEntries) {
+    await postToDiscord(supplementEmbed(entry, addedItems));
+    console.log(`Ergänzung gepostet: ${entry.title} (+${addedItems.length})`);
+    await new Promise((r) => setTimeout(r, 1000));
+  }
+
+  const updated = new Map(entries.map((e) => [entryId(e), e.items]));
+  await saveKnownEntries(updated);
 }
 
 main().catch((err) => {
