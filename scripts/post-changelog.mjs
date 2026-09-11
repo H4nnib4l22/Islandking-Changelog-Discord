@@ -226,24 +226,25 @@ async function main() {
 
   if (newEntries.length === 0 && changedEntries.length === 0) {
     console.log("Keine neuen oder geänderten Einträge.");
-    return;
+  } else {
+    newEntries.reverse();
+    changedEntries.reverse();
+
+    for (const entry of newEntries) {
+      await postToDiscord(entryEmbed(entry));
+      console.log(`Gepostet: ${entry.title}`);
+      await new Promise((r) => setTimeout(r, 1000));
+    }
+
+    for (const { entry, addedItems } of changedEntries) {
+      await postToDiscord(supplementEmbed(entry, addedItems));
+      console.log(`Ergänzung gepostet: ${entry.title} (+${addedItems.length})`);
+      await new Promise((r) => setTimeout(r, 1000));
+    }
   }
 
-  newEntries.reverse();
-  changedEntries.reverse();
-
-  for (const entry of newEntries) {
-    await postToDiscord(entryEmbed(entry));
-    console.log(`Gepostet: ${entry.title}`);
-    await new Promise((r) => setTimeout(r, 1000));
-  }
-
-  for (const { entry, addedItems } of changedEntries) {
-    await postToDiscord(supplementEmbed(entry, addedItems));
-    console.log(`Ergänzung gepostet: ${entry.title} (+${addedItems.length})`);
-    await new Promise((r) => setTimeout(r, 1000));
-  }
-
+  // Immer speichern (nicht nur wenn gepostet wurde) - sonst bleibt eine
+  // migrierte Alt-State-Datei ohne items auf Dauer ohne Diff-Baseline.
   const updated = new Map(entries.map((e) => [entryId(e), e.items]));
   await saveKnownEntries(updated);
 }
