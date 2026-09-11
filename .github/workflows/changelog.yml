@@ -1,7 +1,17 @@
 name: Islandking Changelog -> Discord
 
 on:
-  workflow_dispatch: {}      # erlaubt manuellen Start über den "Run workflow"-Button
+  workflow_dispatch:      # erlaubt manuellen Start über den "Run workflow"-Button
+    inputs:
+      manual_title:
+        description: "Nur für nachträgliche Ergänzungen: Titel des bereits geposteten Eintrags"
+        required: false
+      manual_date:
+        description: "Nur für nachträgliche Ergänzungen: Datum wie im Changelog angezeigt"
+        required: false
+      manual_items:
+        description: "Nur für nachträgliche Ergänzungen: neue Punkte, ein Punkt pro Zeile"
+        required: false
 
 permissions:
   contents: write  # nötig, damit der Workflow state/posted.json zurückcommitten kann
@@ -26,6 +36,9 @@ jobs:
         env:
           DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
           DISCORD_CHANNEL_ID: ${{ secrets.DISCORD_CHANNEL_ID }}
+          MANUAL_TITLE: ${{ github.event.inputs.manual_title }}
+          MANUAL_DATE: ${{ github.event.inputs.manual_date }}
+          MANUAL_ITEMS: ${{ github.event.inputs.manual_items }}
         run: node scripts/post-changelog.mjs
 
       - name: Aktualisierten Stand zurückcommitten
