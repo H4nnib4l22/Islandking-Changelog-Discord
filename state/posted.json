@@ -1,50 +1,282 @@
-[
-  "e836d2fb220975f3e1a6e92acdb9a5292f09086398890b055a36f5fc04d419ab",
-  "d3c5e16b6841177eee27512f019105f660e37b43f81c25e771f7abb0c70314bf",
-  "14aa23b1b4bbdac1ee5cc1ad1ea76ed0ba0719d57b291720aa99eb29a0525583",
-  "bc696cb2c1012b39f59701402569eb527b4d4206b9465d50fe4bbaa096f14072",
-  "7b4c406cefe3bc9ffb9374e1f8019c5c37b7d4f3962e34adee71aae53bed5a38",
-  "29a4879ae35075df83fe234625ea930f50cfc12722349e45b09820e58291f5f9",
-  "7a93e4c1fabffa60f8b9b05f96b66004cc2c1bb15e13990da759e98e1e9e8ee8",
-  "756e6e51fa318ca2102ec5a2c6f2d6e6f4ae6d33af2ecf17c7c057f867d49134",
-  "efb58b806974985269426bf9008d438edece8d5c47d1192df7abd4eb01986fb1",
-  "4eb1391b5218031f6499086aec299aa1a78928b905a406fe6f2f07faad345d26",
-  "98f0818a8727324cece0703b7a91d82e351c1e094c392d9bc499a4a3a08442bd",
-  "5e097a8963728698e57a39119ca2924d2f1dfc4316bfd91fb3569cefb9da80f6",
-  "96ca6f52d3d8f1a928c07b80c649c8791479678841a6d089e9e7f3a61daaf1cf",
-  "24da418ac022b9306a59bdda112cfc26af56fd8ff816dcdbcf35ac73f29ecea7",
-  "702ca6b3624bd1282a51fe562c598f3c781af803265a2ce1c50e0584efa405ab",
-  "ad82ac9179b54b7891b595e311cd5aaf755d6894c34d89563bee767a324da695",
-  "d6a55f87765dee5ed516ccb5e0756b49482a211716d68b7a58f38e57e80f129b",
-  "5f1b09e98816affab1290fcdfea274c4b76fe8d06b698c9802e9bb8ee954cad1",
-  "093dce6c23851452f15d704eca26fdd91c71bd242b3ee331b7e5cd2dd831b438",
-  "85f3cd568495760431775a4a991d2ff4258099752114d4bde28aec6694e22e1f",
-  "67797acf3213c8366d50cee8983d459401b5c29b8b9c8455b5c74e480c8879dd",
-  "2075bb17d2e3b1c488129906c7d0fee915bc8d5f724720cdc222065df6f82dc9",
-  "5b2c85d970b700428fc101b1648d8110eb6e4136fc9d7dde306786d401fe31d3",
-  "c845e2ff8c5ec81e7af1c456f313db4373565abda0254b980d9f608a2cdd457c",
-  "e57a7cc13d4bf57a111bae49006da21829bb7f8aeb994eb84c3a7d4d446b8539",
-  "8d88f75c4f9055086842bf6d9969db370cd0fd299ab803bc5d678731f062f61f",
-  "b365dbcfb3ba11d1529aa0003dbf1c670099a035f4e39056661640b82e24d4e6",
-  "145ce1c222ac7f9f725bccaddc336c78fa2c13e97d4cd2d8b33fc93efd167408",
-  "3e061f01fa15ddacefef6bdc56437c6df7262fe5aad224ae2c4605843312e4df",
-  "0855742e6d9fef7ef397cde3b8f78eda4d65dd8b0882d0a7e51004b6eb9c9f64",
-  "a7264e0147644e23171a802f00ffdd2bf564c11ea12c13bf07f55276f6b778b4",
-  "59865943716c103295e0e2a3175922b79392c93e0f0a414ffa3e6a0b79d14c50",
-  "a159c7a5354123babdf2f4686d008547e094e1a4bfa6414523535226b2f443ce",
-  "430c258c21dc0414b17aa86b790d4bc71fb7f721323b30eeebb6065214996a17",
-  "b336ed4faa0f050fd81faab241e6fd209e3c1da148dc78a2a24af6164aabb035",
-  "45b8e70c776a6561e42af930464fcdada349765544028da62e1e09c1305cbe82",
-  "651d762680ae95f9d116807e7f3191d3bec8607ad4f86472e71dad16889d56ac",
-  "46ae41f69c0d829e48ed053f4fbe93b0054b17e6c733e0b6a4bebd942a20bc6e",
-  "b05e4f2f9a5d176f4922d16cfc594ab91fdffd05b87b96ca3f5d136d9f321d2b",
-  "1c8f7d4f6644798ae5f91d9227f4152cf44c2c569870ad82531afdd2d9149ac4",
-  "fa615b186e5c0471a1cba663117b16b96c2e173f07d7d22e4ebc86344071a6e8",
-  "bbd518c8957bc4fd25d82d1a456fb726b2b34f5c26041f6516481b22fd5c9f32",
-  "3149813154f4b87be2af6843b63b6ca399349891587b5afdbb733fdef6456ade",
-  "3c8cf40d68146e0588bfe7c136e0d530d15e3b5703ce23c4cde492635f7f3cb3",
-  "42c2ed9ae3b71031cee84fc27f284aa3a503866d02e96855e7c26d5417849cc7",
-  "bc08f174b55b7d83c186cc926695acce1a2cc3219a848f67a9585c98f449e0e4",
-  "21b61419ce5d37033cee344003c7255b3c987044eacdcf42c722e9759a1eb3c7",
-  "3587a6e4d3e3dccfc9108188f5bdf1f1b9a188c2d160dee97cd3d6e7a0f352a9"
-]
+{
+  "e836d2fb220975f3e1a6e92acdb9a5292f09086398890b055a36f5fc04d419ab": [
+    "📊 Hafen: Beim Stationieren bei einem Verbündeten zeigt der Hafen jetzt live, wie viel Wert die Zielinsel noch aufnehmen kann. Grenze, belegt, deine Auswahl und der freie Rest passen sich mit jeder Änderung an, bevor du abschickst.",
+    "⚓ Die schwere Galeere kostet 40'000 statt 60'000 Holz (Stein und Eisen unverändert). Sie war gemessen an ihrer Kampfkraft das schlechteste Geschäft im Mittelfeld. Kronrat-Entscheid,",
+    "🤝 Schiffe und Soldaten lassen sich jetzt auf Inseln von Allianzmitgliedern und Paktpartnern stationieren (Hafen: Mission «Stationieren»). Sie bleiben dein Eigentum, zählen für deine Punkte und verteidigen die Gastinsel mit; Verluste treffen dich, Wracks und Verwundete kommen auf deine Hauptinsel. Der Gastgeber kann sie nur nach Hause schicken, du kannst sie jederzeit zurückrufen (Übersicht). Bei Eroberung, Paktende oder Allianzaustritt fahren sie automatisch heim. Spähbericht und Kampfbericht zeigen «stationiert von». Obergrenze je Insel: Gäste höchstens so viel Wert, wie der Gastgeber Punkte hat (im ACP einstellbar). So hat es der Kronrat beschlossen."
+  ],
+  "d3c5e16b6841177eee27512f019105f660e37b43f81c25e771f7abb0c70314bf": [
+    "🪖 Soldaten werden nur noch auf eigenen Inseln ausgeladen. Bei einem Verbündeten gingen sie bisher samt Punkten in dessen Besitz über; damit liess sich die Rangliste und das Angriffsfenster verschieben. Jetzt bleiben sie an Bord und kommen mit den Schiffen zurück, mit einer Nachricht an dich. Rohstoffe an Verbündete gehen weiterhin."
+  ],
+  "14aa23b1b4bbdac1ee5cc1ad1ea76ed0ba0719d57b291720aa99eb29a0525583": [
+    "⚓ Wrack am Ufer: Wer eine Kolonie gründet, findet dort mit etwas Glück ein bis drei alte Piratenschiffe als Wracks. Sie liegen beschädigt im Dock der Kolonie und lassen sich in der Werft reparieren. Eine Belohnung fürs Expandieren, ganz ohne Diamanten.",
+    "🏰 Wer seine Hauptinsel verliert, wählt auf der Übersicht selbst, welche seiner Inseln die neue wird (einmalig). Bis dahin gilt automatisch eine verbliebene Insel.",
+    "🏰 Die Hauptinsel ist nicht eroberbar, solange du höchstens drei Inseln hast (Hauptinsel mitgezählt). Mit der vierten Insel, gegründet oder erobert, endet der Schutz: Wer sich ausbreitet, spielt mit offenem Visier. Fällst du wieder auf drei Inseln zurück, gilt der Schutz wieder. Welche Insel die Hauptinsel eines anderen ist, bleibt bewusst unkenntlich. Plündern geht immer, die letzte Insel eines Spielers bleibt immer. Die Übersicht zeigt deinen Stand, und vor der Insel, die den Schutz beendet, warnt das Spiel beim Kolonisieren und beim Angriff mit Kolonieschiff. So hat es der Kronrat beschlossen; die genaue Zahl steht in den Spielregeln.",
+    "🚢 Transporte kamen leer zurück, obwohl das Lager nicht voll war: Die Inselliste im Hintergrund hat alle paar Sekunden einen alten Stand zurückgeschrieben und dabei frisch angekommene Lieferungen überschrieben. Das ist behoben; die Liste liest nur noch.",
+    "⏱ Ankünfte werden pünktlich abgewickelt: Die Rechnung im Hintergrund war um rund neun Prozent der Reisezeit zu spät dran, was Kämpfe in falscher Reihenfolge auslösen konnte."
+  ],
+  "bc696cb2c1012b39f59701402569eb527b4d4206b9465d50fe4bbaa096f14072": [
+    "🧮 Der Kampfrechner kennt jetzt alle Einheiten: Es fehlten kleines und grosses Frachtschiff sowie das Kolonisationsschiff. Angriff haben sie keinen, aber Trefferpunkte, und damit ziehen sie im Kampf Schaden auf sich. Schiffe, Soldaten und Gebäude kommen jetzt alle aus derselben Quelle, es kann also nichts mehr fehlen.",
+    "🛒 Der Markt lässt keine unmöglichen Angebote mehr zu: Wer mehr verlangt, als je in sein Lager passt, bekommt eine Absage statt eines Geschäfts, bei dem der Überschuss ersatzlos verfällt. Bei älteren Angeboten warnt jetzt ein Zeichen in der Liste, und vor dem Annehmen wird gefragt.",
+    "🏦 Die Allianzbank rechnet mit der erlaubten Mitgliederzahl: Eine Allianz, die vor Einführung der Grenze grösser geworden war, hatte dadurch eine grössere Bank, die niemand sonst erreichen kann.",
+    "📦 Die Rohstoffleiste sagt, wann dein Lager voll ist, geschätzt aus deiner Produktion.",
+    "📜 Neuer Berichte-Knopf oben neben dem Briefsymbol, mit eigener roter Zahl. Vorher war der Zähler nur im aufgeklappten Militär-Menü zu sehen.",
+    "🔍 Verteidigungsgebäude im Spähbericht haben eine eigene Gruppe, wie Schiffe und Soldaten. Vorher standen sie klein und grau unter der Verteidigungssumme und wurden überlesen."
+  ],
+  "7b4c406cefe3bc9ffb9374e1f8019c5c37b7d4f3962e34adee71aae53bed5a38": [
+    "🏗️ Alle Bauaufträge auf der Inselkachel: Mit PowerUser-Bau-Slots wurde auf der Übersicht trotzdem nur ein Auftrag angezeigt.",
+    "📱 Die Flottenzeile auf dem Handy war zu drei Vierteln abgeschnitten. Man sah die Schiffe und die Restzeit, aber nicht, wohin die Flotte fährt. Sie bricht jetzt um, statt abgeschnitten zu werden.",
+    "❓ Die Hilfe-Sprechblase wurde von umgebenden Kästen abgeschnitten und lief am rechten Rand aus dem Bild.",
+    "📋 Das Menü heisst wieder «Berichte»: Dort liegen Kampf- und Spähberichte, «Kampfberichte» war deshalb falsch. Der Reiter selbst bleibt «Kampfberichte».",
+    "⏱ Die Zeit am angepinnten Ziel heisst jetzt «Bauzeit»: Sie ist die reine Bau- und Forschungszeit und enthält nicht die Wartezeit auf fehlende Rohstoffe. Gerechnet wurde richtig, beschriftet war es missverständlich.",
+    "🏖️ Piratenüberfälle laufen nur zwischen 8 und 20 Uhr aus, und wer im Urlaubsmodus ist, kommt nicht mehr ins Spiel. Beides seit gestern, hier der Vollständigkeit halber."
+  ],
+  "29a4879ae35075df83fe234625ea930f50cfc12722349e45b09820e58291f5f9": [
+    "💬 Auf Systemnachrichten kann man endlich reagieren: Bei einer Nachricht ohne Absender fehlte der Antwort-Knopf. Damit war jede Antwort des Teams auf ein Support-Ticket eine Sackgasse, und wer nachfragen wollte, musste ein neues Ticket aufmachen. Jetzt gibt es «Frage dazu stellen», das den Support mit Betreff und Zitat vorbelegt.",
+    "🪖 Dein Bestand bleibt sichtbar, während ein Auftrag läuft: Wer ausbildete, sah seine gesamte stationierte Armee nicht mehr, weil die Liste hinter dem laufenden Auftrag verschwand. In der Werft war es genauso, dort hatte es nur noch niemand gemeldet.",
+    "🟢 Online-Anzeige auch ohne Farbunterscheidung lesbar: Grün gegen Rot ist genau die Kombination, die Rot-Grün-Blinde nicht trennen können. Der Punkt ist jetzt gefüllt (online) oder hohl (offline), die Form trägt die Information zusätzlich zur Farbe.",
+    "🔗 Laufende Aufträge sind verlinkt: Ein Klick auf den Schwertkämpfer führt in die Kaserne, auf ein Schiff in die Werft, auf ein Gebäude zur Insel, jeweils gleich mit der richtigen Insel vorgewählt."
+  ],
+  "7a93e4c1fabffa60f8b9b05f96b66004cc2c1bb15e13990da759e98e1e9e8ee8": [
+    "📖 Neue Seite «Spielregeln» unter Mehr: Alle Zahlen, nach denen Islandking rechnet, stehen jetzt offen da, mit einer Erklärung zu jeder einzelnen. Produktion und Geschwindigkeit, Kampf und Plünderung, Piraten, Allianzbank, Schilde, Punkte und Diamanten. Die Werte kommen live aus dem Server, die Seite kann also nicht veralten.",
+    "🪖 Die Kaserne beschleunigt jetzt die Ausbildung: 1,5 % je Stufe, bis 30 % auf Stufe 20. Vorher bewirkte nur Stufe 1 etwas, jede weitere kostete Rohstoffe und Energie und gab nichts zurück.",
+    "⏱ Ausbildungszeiten stimmen: Die angezeigte Dauer liess die Server-Geschwindigkeit aus und war rund 9 % zu lang. Derselbe Fehler wie zuvor bei der Forschung.",
+    "🏖️ Urlaubsmodus ist jetzt wirklich Urlaub: Wer im Schild steht, kommt nicht mehr ins Spiel, sondern sieht eine Seite mit dem Enddatum. Vorher konnte man unangreifbar weiterspielen. Vorzeitig beenden geht mit einem Klick, danach gilt eine Sperrfrist von 7 Tagen.",
+    "🏴‍☠️ Piraten schlafen nachts: Überfälle laufen nur noch zwischen 8 und 20 Uhr aus. Eine Vorwarnung um 00:02 und der Angriff um 00:56 gehören der Vergangenheit an.",
+    "💎 Schiffe reparieren kostet, was es wert ist: Der Diamantpreis richtete sich nach der reinen Stückzahl, fünf Schiffe je Diamant, egal ob Frachtkahn oder Schlachtschiff. Jetzt zählt der echte Schaden.",
+    "⚔️ Neuer Leitfaden im Forum: «Wie der Kampf wirklich rechnet» erklärt Runden, Schadensverteilung und alle sechs Gebäude mit Kampfwerten. Kurzfassung: Es gibt keine Konter, und die Stadtmauer ist die stärkste Verteidigung im Spiel, obwohl sie nie angreift."
+  ],
+  "756e6e51fa318ca2102ec5a2c6f2d6e6f4ae6d33af2ecf17c7c057f867d49134": [
+    "🤝 Allianzen haben eine Beschreibung: Gründer und Co-Anführer hinterlegen einen Text, den alle auf der Allianzseite sehen. Wer eine Allianz sucht, erkennt endlich, wofür sie steht.",
+    "👑 Der Gründer wird als Gründer ausgewiesen: Bisher stand er als «Mitglied» da, Co-Anführer sogar als «coleader».",
+    "⚔️ Laufende Angriffe der Allianz: Im Allianzmenü stehen ausgehende und eingehende Angriffe mit Ziel und Ankunftszeit. Wer angreift, verrät weiterhin nur der Spähposten.",
+    "🗺️ Die Kartenlegende filtert: Ein Klick zeigt nur diese Gruppe, etwa nur angreifbare Inseln oder nur freie Plätze.",
+    "🛒 Der Markt ist eine Tabelle: sortierbar nach Verkäufer, Menge und Tauschverhältnis, dazu Filter nach Rohstoff. Das Verhältnis rechnet das Spiel jetzt selbst aus.",
+    "🔧 Adminmodus in der Allianzverwaltung: Kicken und Befördern liegen hinter einem Schalter, ein Fehlklick wirft niemanden mehr raus.",
+    "📌 Angepinnte Ziele gehören zur Insel: Jede Insel zeigt ihre eigenen Ziele, dazu steht der Bestand neben dem Bedarf.",
+    "🏆 Punkte je Ausbaustufe sichtbar: Bei jedem Gebäude und jeder Forschung steht, wie viele Punkte eine Stufe bringt.",
+    "👥 Freundeliste mit Onlinestatus: grünes Lämpchen, Profil-Link und Brief-Knopf, dazu eine Freundeskarte auf der Übersicht.",
+    "🎯 Zielspieler klickbar, Max-Knopf bei den Einheiten, rote Zahl je Berichte-Reiter.",
+    "🚢 Rückweg abkürzen: Heimkehrende Flotten laufen gegen Diamanten sofort ein. Nur der Rückweg, der Hinweg bleibt unangetastet."
+  ],
+  "efb58b806974985269426bf9008d438edece8d5c47d1192df7abd4eb01986fb1": [
+    "📈 Paket-Boni waren unsichtbar: Wer ein PowerUser-Paket hatte, sah im Forschungsmenü «+0 %», obwohl die Produktion tatsächlich um bis zu 30 % höher lief. Der Bonus wirkte immer, er stand nur nirgends.",
+    "🧮 Der Kampfrechner rechnete falsch: Ihm fehlten Stadtmauer, Kanonen zur Stadtmauer und Wasser-Blockaden. Gerade die Stadtmauer ist mit 30 000 Trefferpunkten der grösste Posten jeder Verteidigung. Er sagte damit Siege voraus, die es nicht gibt. Wer damit geplant hat, sollte seine Rechnungen prüfen.",
+    "⏱ Forschungsdauer stimmte nicht: Die Vorschau liess den Geschwindigkeitsregler aus und war rund 9 % zu lang.",
+    "🪵 Rohstoffbilder im Markt sind zurück.",
+    "💬 Antworten zitieren richtig: Über der zitierten Nachricht stand «Antwort von», obwohl dort keine Antwort steht.",
+    "👻 Geistmodus klarer beschrieben: Die Abklingzeit läuft ab dem Start, nicht ab dem Ende. Gerechnet wurde immer richtig, beschrieben war es falsch."
+  ],
+  "4eb1391b5218031f6499086aec299aa1a78928b905a406fe6f2f07faad345d26": [
+    "🛟 Angeschlagene Schiffe zählen nicht mehr als Verlust: Ein Schiff mit Restschaden sinkt nicht, es legt zur Reparatur im Dock an. Bisher stand es trotzdem in der Kopfzeile als verloren, während die Aufstellung darunter null Verluste zeigte. Jetzt weist der Bericht beides getrennt aus: zerstört und beschädigt zurück. Gleiches gilt für verwundete Truppen im Lazarett und für die Verteidigerseite.",
+    "⚓ Weniger Laderaum erklärt: Weil ein beschädigtes Schiff sofort heimfährt, plündert die Flotte ohne seinen Laderaum. Aus 11 kleinen Frachtern wurden so nur 3000 statt 3300 Ladung. Der Hinweis in der Aufstellung sagt das jetzt klar."
+  ],
+  "98f0818a8727324cece0703b7a91d82e351c1e094c392d9bc499a4a3a08442bd": [
+    "💎 Auffüllen verbrennt keine Diamanten mehr: Wenn die benötigten Rohstoffe gar nicht in dein Lager passen, wird der Kauf jetzt abgelehnt statt teuer abgerechnet. Vorher wurde der volle Betrag abgebucht und der Überschuss lief am Lagerdeckel ins Leere.",
+    "🤝 Co-Anführer kann endlich, was er darf: Einladen, Mitglieder entfernen und Rohstoffe abheben waren zwar erlaubt, die Knöpfe wurden ihm aber gar nicht angezeigt.",
+    "⚓ Schiffe fliegen nicht mehr: Aus «Rückflug» wurde «Rückweg», aus «im Anflug» wurde «im Anmarsch». Passt besser zu einem Spiel auf See."
+  ],
+  "5e097a8963728698e57a39119ca2924d2f1dfc4316bfd91fb3569cefb9da80f6": [
+    "⭐ Bauaufträge einzeln sofort abschliessen: Laufen mehrere Aufträge, kannst du jetzt gezielt einen davon beenden, statt alle zusammen bezahlen zu müssen. Wer einen langen Hafen und eine kurze Mine baut, zahlt nur noch für die Mine. Bei der Forschung ging das schon immer, beim Bauen bisher nicht.",
+    "💎 Rohstoffe auffüllen jetzt auch in Forschung, Werft und Kaserne: Fehlen dir Rohstoffe, füllst du sie dort mit einem Klick passend zum gewählten Vorhaben auf, genau wie beim Gebäudebau. Bei Schiffen und Truppen richtet sich der Betrag nach der eingestellten Stückzahl."
+  ],
+  "96ca6f52d3d8f1a928c07b80c649c8791479678841a6d089e9e7f3a61daaf1cf": [
+    "⚓ Plündern füllt endlich den ganzen Laderaum: Die Beute wurde auf vier Rohstoffe aufgeteilt. Hatte die Insel eine Sorte nicht, blieb dieses Viertel des Laderaums einfach leer und die Flotte kam mit 75 Prozent Ladung heim. Jetzt wird der Rest aufgefüllt.",
+    "🤝 Neue Rolle Co-Anführer: Die rechte Hand des Gründers darf einladen, Mitglieder entfernen und an die Bank. Führung übergeben, auflösen und Rollen vergeben bleiben beim Gründer, und den Gründer entfernen kann niemand.",
+    "🚪 Allianz offen oder nur auf Einladung: Der Gründer kann seine Allianz für alle öffnen, dann tritt man einfach über das Kürzel bei. Standard bleibt „nur auf Einladung“.",
+    "🟢 Online-Punkt in der Allianzübersicht: Wie in der Rangliste siehst du jetzt auch bei deinen Mitgliedern, wer gerade da ist.",
+    "📊 Bank-Bilanz nach Rohstoff: In der Bilanz je Mitglied kannst du zwischen Gesamtsumme und einzelnen Rohstoffen umschalten.",
+    "💬 Antworten behält den Verlauf: Beim Antworten steht die ursprüngliche Nachricht jetzt zitiert darunter, der Bezug geht nicht mehr verloren. Ausserdem kannst du mehrere Empfänger mit Komma trennen und dieselbe Nachricht an bis zu 10 Leute schicken.",
+    "☀️ Erledigte Tagesaufgabe wegklickbar: Ist sie geschafft, kannst du die Karte ausblenden. Am nächsten Tag erscheint die neue Aufgabe wieder."
+  ],
+  "24da418ac022b9306a59bdda112cfc26af56fd8ff816dcdbcf35ac73f29ecea7": [
+    "🛟 Der Kampfrechner sagt jetzt auch, was ins Dock geht: Bisher nannte er nur die im Kampf zerstörten Schiffe, der Bericht danach aber eine grössere Zahl. Der Unterschied sind angeschlagene Schiffe: Die sinken nicht, gehen zur Reparatur ins Dock und fehlen dir trotzdem in der Flotte. Der Rechner weist beides getrennt aus und nennt die Zahl, die später im Bericht steht.",
+    "🏴‍☠️ Kapern lohnt sich auch bei kleinen Konvois: Von den versenkten Piratenschiffen wurde die Beute abgerundet. Bei einem Typ, von dem nur wenige mitfuhren, kam dadurch immer null heraus, gerade bei den selteneren und wertvolleren Schiffen. Jetzt wird kaufmännisch gerundet, aus drei versenkten wird also eines statt keines.",
+    "🪵 Rohstoff-Symbole jetzt wirklich überall: In Kampfberichten, Spionageberichten, im Replay, im Hafen, in der Werft, der Kaserne, am Markt und in der PowerUser-Übersicht standen noch die alten Emoji-Zeichen, die auf manchen Geräten als leere Rechtecke erscheinen. Alle Stellen nutzen jetzt die echten Bild-Symbole."
+  ],
+  "702ca6b3624bd1282a51fe562c598f3c781af803265a2ce1c50e0584efa405ab": [
+    "⚫ Kohle lässt sich wieder handeln: Kohle anzubieten schlug fehl, und jedes Angebot, bei dem Kohle im Spiel war, liess sich nicht annehmen. Es kam nur ein nichtssagendes «Aktion fehlgeschlagen». Ursache war eine Lücke im Code: Kohle war als handelbarer Rohstoff schlicht nicht vorgesehen.",
+    "🏦 Allianzbank zeigt deinen echten Bestand: Unter «Deine verfügbaren Rohstoffe» stand der zuletzt gespeicherte Stand, der je nach letzter Aktion Stunden alt sein konnte. Dadurch zeigte die Bank teils nur einen Bruchteil dessen, was die Inselseite auswies, und manche konnten scheinbar gar nichts einzahlen. Jetzt wird überall derselbe, aktuelle Stand angezeigt."
+  ],
+  "ad82ac9179b54b7891b595e311cd5aaf755d6894c34d89563bee767a324da695": [
+    "🧭 Navigationsforschung hat jetzt eine Wirkung: Kompass und Seekarten haben bisher schlicht nichts getan. Kompass diente nur dazu, die Seekarten freizuschalten, und die Seekarten selbst blieben wirkungslos, obwohl ihre Beschreibung eine grössere Sichtweite versprach. Jetzt lösen sie dieses Versprechen ein: Jede Kompass-Stufe erweitert deinen Kartenausschnitt um ein Feld, die Seekarten um weitere fünf. Voll erforscht siehst du 25 statt 15 Felder weit und kannst entsprechend weiter herauszoomen.",
+    "ℹ️ Wer die Forschung schon hat, profitiert sofort, es ist nichts erneut zu erforschen."
+  ],
+  "d6a55f87765dee5ed516ccb5e0756b49482a211716d68b7a58f38e57e80f129b": [
+    "🌙 Lesbarkeit im Dunkelmodus: In den Kästen «Schiffe stationieren» und «Konvoi entern» stand heller Text auf hellem Grund, praktisch unlesbar. Ursache waren farbige Flächen ohne Dunkel-Variante. Elf solche Flächen und die farbigen Texte darauf sind jetzt ergänzt, das betrifft auch das neue Bankprotokoll und diverse Hinweisboxen.",
+    "🪵 Rohstoff-Symbole in der Allianzkasse: Statt Holz und Stein waren dort nur leere Rechtecke zu sehen. Die Kasse nutzt jetzt dieselben Bild-Symbole wie der Rest des Spiels.",
+    "📊 Bilanz je Mitglied in der Allianzbank: Unter dem Buchungsprotokoll siehst du neu pro Mitglied, wie viel es insgesamt eingezahlt und abgehoben hat, über alle Buchungen und nicht nur die letzten 50.",
+    "🏴‍☠️ Nachricht, wenn der Konvoi weg ist: Traf eine Enterflotte den Konvoi nicht mehr an, kam sie kommentarlos zurück. Nach stundenlanger Anreise sah man gar nichts und musste es für einen Fehler halten. Jetzt erklärt eine Nachricht, was passiert ist."
+  ],
+  "5f1b09e98816affab1290fcdfea274c4b76fe8d06b698c9802e9bb8ee954cad1": [
+    "🏖️ Der Urlaubsmodus pausiert jetzt wirklich: Solange der Schild steht, bist du unangreifbar, kommst dafür aber auch nicht voran. Bauen, Forschen, Schiffbau, Ausbildung und Flottenaufträge sind gesperrt, so wie es die FAQ schon immer beschrieben hat. Bisher liess sich unter Schutz ungestört weiterbauen.",
+    "🌴 Deine Inseln produzieren im Urlaub nur noch 30 Prozent. Sie stehen also nicht still, aber Urlaub ist kein Weg mehr, gefahrlos zu wachsen. Wie stark gedrosselt wird, siehst du unter «Wie entsteht meine Produktion?» als eigenen Faktor.",
+    "⚓ Zum Start des Urlaubs muss alles ruhen: kein laufender Auftrag und keine Flotte unterwegs. Sonst könnte man erst alles anstossen und dann abtauchen, oder jemanden angreifen und in den Schild gehen, bevor die Antwort kommt."
+  ],
+  "093dce6c23851452f15d704eca26fdd91c71bd242b3ee331b7e5cd2dd831b438": [
+    "⚔️ Kampfberichte zeigen die Aufstellung: Klapp im Bericht «Aufstellung anzeigen» auf, und du siehst beide Seiten im Detail. Welche Einheiten angetreten sind, wie viele davon überlebt haben, dazu Angriffswert und Trefferpunkte jeder Gattung und die Gesamtstärke beider Flotten. Bisher standen dort nur Summen, und wer verlor, sah praktisch nichts. Da der Kampf ohne jeden Zufall gerechnet wird, kannst du jetzt genau nachvollziehen, woran es lag.",
+    "🛟 Angeschlagene Schiffe sind nicht verloren: Wenn Schiffe beschädigt zur Reparatur ins Dock gehen, fehlen sie in der Flotte, sind aber nicht gesunken. Der Bericht sagt das jetzt ausdrücklich, statt dich mit zwei Zahlen alleinzulassen, die sich zu widersprechen scheinen.",
+    "ℹ️ Berichte von vor dieser Umstellung haben keine Aufstellung, dort bleibt es bei den Summen. Alle neuen Kämpfe werden vollständig festgehalten."
+  ],
+  "85f3cd568495760431775a4a991d2ff4258099752114d4bde28aec6694e22e1f": [
+    "🏪 Handel ohne Spam: Ein Spieler kann jetzt höchstens 5 Angebote gleichzeitig im Markt stehen haben. Bisher konnten einzelne die Liste mit Dutzenden Mini-Angeboten zustellen, sodass man ewig scrollen musste, um ernst gemeinte Trades zu finden. Über dem Formular siehst du, wie viele Plätze du belegt hast. Bestehende Angebote bleiben unangetastet.",
+    "⚔️ Kampfrechner unterscheidet jetzt Insel-Angriff und Konvoi entern: Beim Entern kämpfen ausschliesslich Schiffe, Soldaten lassen sich einem Enter-Auftrag gar nicht mitgeben. Der Rechner bot sie trotzdem an und rechnete dadurch eine Stärke vor, die auf See nie antreten konnte. Oben wählst du neu die Kampfart, beim Entern verschwinden Soldaten und Türme.",
+    "📈 Punkte bleiben stabil, wenn Flotten unterwegs sind: Bisher zählten nur Schiffe und Truppen, die zu Hause lagen. Legte eine Flotte ab, sanken deine Punkte, und bei der Rückkehr stiegen sie wieder. Jetzt zählen Einheiten auf See ganz normal mit.",
+    "🏦 Allianzbank mit Buchungsprotokoll: Unter dem Kontostand siehst du neu die letzten 50 Bewegungen mit Spieler, Menge, Insel und Zeitpunkt. Damit ist nachvollziehbar, wer eingezahlt und wer abgehoben hat.",
+    "🏗 Ausgebaute Gebäude zeigen keine Fantasiewerte mehr: Bei Gebäuden auf der Maximalstufe stand weiterhin der Wert der nächsten Stufe, die es gar nicht gibt. Jetzt steht dort nur noch der tatsächliche Wert.",
+    "👓 Bessere Lesbarkeit im Hafen: In den Kästen «Schiffe stationieren» und «Konvoi entern» waren die Detailangaben fast so hell wie der Hintergrund, auf dem Handy praktisch unlesbar. Der Kontrast ist jetzt rund dreimal so hoch."
+  ],
+  "67797acf3213c8366d50cee8983d459401b5c29b8b9c8455b5c74e480c8879dd": [
+    "🏝 Bauplätze: Jede Insel hat jetzt eine sichtbare Grösse, und jede Gebäudestufe belegt einen Bauplatz. Du findest die Anzeige auf der Inselseite gleich unter dem Strom. Die Grenze blockiert vorerst noch keinen Ausbau, wir zeigen sie zuerst, damit du in Ruhe planen kannst. Wie im alten Islandking schafft die Gaia-Aufwertung (über Terraforming) je Stufe 100 zusätzliche Plätze.",
+    "🛡 Schiffe verteidigen sichtbar mit: Im Hafen liegende Schiffe haben deine Insel schon immer mitverteidigt, im angezeigten Verteidigungswert fehlten sie aber. Bei einer starken Flotte war der Wert dadurch viel zu niedrig. Jetzt zählen sie mit, und darunter steht, wie viel auf Türme, Soldaten und Schiffe entfällt.",
+    "🏠 Deine Hauptinsel bleibt deine Hauptinsel: Wer eine ältere Insel erobert hatte, dem rutschte sie ungefragt in diese Rolle. Forschung, Schiffbau, Tech-Tree, Markt und Allianzbank hingen dann an der falschen Insel. Behoben, deine Gründungsinsel bleibt gesetzt."
+  ],
+  "2075bb17d2e3b1c488129906c7d0fee915bc8d5f724720cdc222065df6f82dc9": [
+    "🪵 Rohstoff-Symbole überall lesbar: In manchen Browsern (zum Beispiel Vivaldi) fehlten Holz und Stein einfach. Die Rohstoffe erscheinen jetzt als echte Bilder statt als Emoji und damit überall. Neu dazu: Fahr mit der Maus über ein Symbol, dann steht sein Name da.",
+    "🌙 Dunkles Design: Nachrichten waren im Dark Mode kaum zu lesen, dunkler Text auf dunklem Grund. Behoben.",
+    "⛵ Gekaperte Piratenschiffe sind wieder da: Nach einem Update verschwanden erbeutete Piratenschiffe aus der Werft. Weg waren sie nie, nur unsichtbar. Jetzt liegen sie wieder im Dock, reparierbar und einsatzbereit.",
+    "🔗 Werbelinks mit Satzzeichen: Benutzernamen, die auf einen Punkt enden, brachen den Einladungslink. Läuft wieder."
+  ],
+  "5b2c85d970b700428fc101b1648d8110eb6e4136fc9d7dde306786d401fe31d3": [
+    "👤 Konto selbst löschen: Im Profil kannst du dein Konto jetzt endgültig löschen, mit allen Inseln, Flotten und Nachrichten. Zur Sicherheit bestätigst du mit deinem Benutzernamen.",
+    "📱 Bessere Darstellung auf dem Tablet: Auf iPad und grösseren Bildschirmen wird die Navigation nicht mehr gedrängt dargestellt."
+  ],
+  "c845e2ff8c5ec81e7af1c456f313db4373565abda0254b980d9f608a2cdd457c": [
+    "🏴‍☠️ Piratenschiffe im Kampfrechner: Auf der Verteidiger-Seite kannst du jetzt auch die vier Piratenschiff-Typen eintragen und einen gesichteten Konvoi vor dem Entern durchsimulieren.",
+    "⚔️ Das Konvoi-Fenster auf der Karte zeigt neu die Kampfwerte jedes Schiffstyps (Angriff und Struktur eines unbeschädigten Schiffs). Was an Beute an Bord ist, bleibt eine Überraschung."
+  ],
+  "e57a7cc13d4bf57a111bae49006da21829bb7f8aeb994eb84c3a7d4d446b8539": [
+    "☀️ Tagesaufgaben zählen jetzt fair: Massgeblich ist, was du heute fertigstellst, nicht was am Abend noch übrig ist. Ein Schiff, das nach dem Stapellauf gleich zum Kolonisieren ausläuft oder auf Mission geht, zählt für «Kiellegung» trotzdem, und im Kampf gefallene Rekruten nehmen dir den Ausbildungs-Fortschritt nicht mehr weg."
+  ],
+  "8d88f75c4f9055086842bf6d9969db370cd0fd299ab803bc5d678731f062f61f": [
+    "🗄 Berichte archivieren: Kampf- und Spionageberichte lassen sich jetzt aufräumen. Ein Klick auf «Archivieren» räumt den Bericht aus dem Posteingang, über den Reiter «Archiv» bleibt er jederzeit einsehbar und lässt sich zurückholen. Nichts geht verloren.",
+    "🧹 Aufräumen mit einem Klick: Der neue Knopf archiviert auf Wunsch alle Berichte, die älter als 30 Tage, 7 Tage oder 1 Tag sind, oder gleich den ganzen Posteingang."
+  ],
+  "b365dbcfb3ba11d1529aa0003dbf1c670099a035f4e39056661640b82e24d4e6": [
+    "↩️ Flotte zurückrufen: Losgeschickt und es sich anders überlegt? Auf der Übersicht kannst du jede Flotte, die noch unterwegs zum Ziel ist, umkehren lassen. Sie dreht sofort um, und der Heimweg dauert genau so lange, wie sie schon geflogen ist. Wer kurz vor dem Ziel abbricht, verliert also die volle Reisezeit doppelt. Fracht und Truppen kommen vollständig zurück.",
+    "✕ Aufträge abbrechen: Ausbau, Schiffsbau und Ausbildung lassen sich jetzt stoppen. Du bekommst 90 % der Rohstoffe zurück, 10 % bleiben als Stornogebühr im Hafenamt, und der Slot ist sofort wieder frei. Wichtig: Ein Auftrag, dessen Zeit schon abgelaufen ist, wird fertiggestellt statt storniert."
+  ],
+  "145ce1c222ac7f9f725bccaddc336c78fa2c13e97d4cd2d8b33fc93efd167408": [
+    "📣 Das grösste Update seit dem Neustart: Das Kampfsystem wurde nach euren Meldungen überarbeitet, Schiffe und Soldaten überleben Schlachten als Reparatur- und Heilungsfälle, Flotten lassen sich umstationieren, und die Wirtschaft bekommt ein Grosslager samt lesbaren Zahlen. Alles im Detail hier unten. Viel Spass beim Ausprobieren!",
+    "⚔️ Das Kampfsystem rechnet jetzt mit Schadensübertrag: Schaden, der nicht für eine ganze Einheit reicht, verpufft nicht mehr, sondern zählt in der nächsten Runde weiter. Wenige, sehr starke Einheiten sind damit nicht mehr übermässig zäh, und was am Ende an Restschaden übrig bleibt, hängt als Rumpfschaden am überlebenden Schiff. Der Kampfrechner nutzt dieselbe Engine und rechnet automatisch gleich.",
+    "🛟 Schiffe gehen kaputt statt nur verloren: Ein Teil der versenkten Schiffe wird schwer angeschlagen (50 bis 90 % Schaden) geborgen und liegt im Dock. In Hafen und Werft siehst du pro Schiffstyp jetzt Detailinfos, zum Beispiel «3 Stk. einsatzbereit, 2 Stk. mit 80 % Schaden», und reparierst gezielt: Die Reparatur kostet genau den Schadensgrad als Anteil der Baukosten.",
+    "🩹 Die Kaserne hat ein Lazarett: Ein Teil der gefallenen Soldaten überlebt verwundet und kann dort geheilt werden, Kosten analog zum Verwundungsgrad. Vorher waren Soldaten einfach weg.",
+    "🏰 Verteidigungsbauten tragen Kampfschaden davon: Angeschlagene Türme und Mauern verteidigen geschwächt, bis du sie auf der Insel-Seite reparierst (Kosten = Schadensgrad × Stufenkosten).",
+    "🏴‍☠️ Gekaperte Piratenschiffe unterscheiden sich jetzt: Überlebende sind nur leicht lädiert (25 %), aus dem Wasser gefischte Wracks brauchen eine grosse Reparatur (50 bis 90 %).",
+    "🔭 Tipp für Piratenjäger: Pirateninseln rüsten laufend auf, Turm und Flotte wachsen von Stunde zu Stunde. Verlasse dich nicht auf einen Spionagebericht von vorgestern, spähe kurz vor dem Angriff nochmals.",
+    "⚓ Schiffe umstationieren: Im Hafen kannst du Schiffe jetzt dauerhaft auf eine andere eigene Insel verlegen (einfacher Flug, kein Rückflug). Die Zielinsel braucht dafür einen Hafen. Endlich bekommen auch Kolonien ohne grosse Werft ihre Flotte.",
+    "📦 Neues Gebäude Grosslager: riesige Lagerhallen ab grosser Siedlung Stufe 3. Stufe 1 bringt +50'000 Lagerkapazität je Rohstoff, jede weitere Stufe das 1.2-fache der vorherigen (auf Maximalstufe 20 zusammen rund 9.3 Millionen). Reine Lagerfläche: Wohnraum bringt es keinen, dafür passen jetzt auch Stadtmauer und Co. ins Budget.",
+    "⛏️ Die «Goldmine» heisst jetzt überall Eisenmine, auch auf der Inselansicht, und hat ein neues Bild bekommen. Sie hat schon immer Eisen gefördert (das Gold der alten Zeit), jetzt sagt sie es auch.",
+    "🔢 Grosse Zahlen sind endlich lesbar: Überall im Spiel gibt es jetzt Tausendertrenner, aus 9481400 wird 9'481'400.",
+    "💎 Rohstoffe kaufen mit Wunschmenge: Tippe frei ein, wie viel du willst, die Diamanten werden live berechnet (1'500 Rohstoffe = 1 Diamant). Das Spiel zeigt vorher an, was wirklich ins Lager passt, und jeder Kauf will aktiv bestätigt werden. Kein versehentlicher Klick, kein verpuffter Rohstoff.",
+    "🤝 Freunde werben lohnt sich jetzt richtig: Für jeden geworbenen Spieler, der sich verifiziert, gibt es neu 10 Diamanten statt 1. Deinen Einladungslink findest du auf der Übersicht."
+  ],
+  "3e061f01fa15ddacefef6bdc56437c6df7262fe5aad224ae2c4605843312e4df": [
+    "🏴‍☠️ Piraten-Konvois sind da: Auf der Weltkarte ankern jetzt immer wieder Piratenflotten (Totenkopf-Flagge). Wer zuerst kommt, entert zuerst: An Bord warten Rohstoffe, mit etwas Glück Diamanten, und gekaperte Schiffe segeln danach unter deiner Flagge (als beschädigte Schiffe im Heimatdock). Aber Vorsicht, die Konvois lichten nach einiger Zeit den Anker.",
+    "👤 Spielerprofile sind zurück: Jeder Name in der Rangliste ist jetzt anklickbar. Im Profil siehst du Grad, Punkte, Allianz und alle Inseln eines Spielers, mit Koordinaten, die dich direkt zur Karte bringen.",
+    "🛡️ Allianzen zeigen ihre Crew: Ein Klick auf eine Allianz öffnet die Mitgliederliste, abgestuft nach Punkten, mit Rolle und Grad. Wie in den alten Zeiten.",
+    "🟢 Das Online-Lämpchen leuchtet wieder: Grün heisst, der Spieler ist gerade an Bord. Rot heisst offline, oder doch im Geistmodus? Man weiss es nie, der Hinterhalt lebt.",
+    "⭐ Admins tragen jetzt einen Stern hinter dem Namen, damit ihr wisst, wer offiziell für Islandking unterwegs ist.",
+    "✉️ Nachricht mit einem Klick: Direkt aus dem Spielerprofil kannst du jedem eine Ingame-Nachricht schreiben, der Empfänger ist schon eingetragen."
+  ],
+  "0855742e6d9fef7ef397cde3b8f78eda4d65dd8b0882d0a7e51004b6eb9c9f64": [
+    "🗺️ Schluss mit Koordinaten-Tippen: Im Hafen wählst du Ziele für Angriff, Spionage, Transport und Kolonisierung jetzt direkt auf einer kleinen Karte. Insel anklicken, fertig. Daneben stehen Name, Besitzer und Beziehung des Ziels, und die Pfeiltasten der Koordinatenfelder springen im 10er-Raster.",
+    "⚔️ Kaserne und Werft können Serien: Anzahl eintragen und zum Beispiel 10 Soldaten oder 5 Schiffe in einem Rutsch beauftragen. Kosten und Gesamtdauer rechnen live mit.",
+    "🏪 Der Markt passt jetzt auf dein Lager auf: Würde ein Handel Rohstoffe über die Lagergrenze hinaus verfallen lassen, warnt dich das Spiel vorher mit der genauen Menge.",
+    "🏦 Die Allianzkasse fragt vor jeder Ein- und Auszahlung nach dem Betrag, ein versehentlicher Klick spendet nicht mehr dein halbes Lager.",
+    "🏴‍☠️ Der Spuk auf eroberten Pirateninseln ist beendet: «Grosse Siedlung 18 von 12» gibt es nicht mehr, alle Gebäude halten sich wieder an ihre Maximalstufe.",
+    "📖 Die Frachtschiff-Beschreibungen im Tech-Tree zeigen wieder die richtigen Laderäume (300 bzw. 1500), und auch der Musketier-Text kennt jetzt seine neuen Werte.",
+    "📱 Auf Tablets überlappt die Kopfleiste nicht mehr mit den Menüpunkten."
+  ],
+  "a7264e0147644e23171a802f00ffdd2bf564c11ea12c13bf07f55276f6b778b4": [
+    "🎨 Grosses Artwork-Update: Alle Schiffe, Einheiten und Forschungen haben jetzt eigene, handgemalte Porträts: zu sehen in Werft, Hafen, Kaserne, Forschung, Tech-Tree, in der Bauliste und bei den laufenden Aufträgen.",
+    "🔍 Fahre mit der Maus über ein Bild, um es vergrössert zu sehen, oder tippe es an (auch am Handy), um es in voller Grösse zu geniessen.",
+    "☀️ Neu auf der Übersicht: die Tagesaufgabe! Jeden Tag eine kleine Aufgabe (bauen, Schiffe bauen oder Soldaten ausbilden) mit Rohstoff-Belohnung. Ganz ohne Druck: Wer einen Tag verpasst, verliert nichts.",
+    "⚖️ Balance: Der Musketier trägt seinen Preis jetzt zu Recht: Angriff steigt von 5 auf 14, Verteidigung sinkt leicht auf 6. Damit ist er die offensive Mittelklasse-Einheit zwischen Schwertkämpfer und Kanonier."
+  ],
+  "59865943716c103295e0e2a3175922b79392c93e0f0a414ffa3e6a0b79d14c50": [
+    "⚔️ Neu auf der Übersicht: geführte Quests! Acht Aufgaben führen dich durch deine erste Woche, von der Sägerei bis zum ersten Frachtschiff. Jede abgeschlossene Quest bringt eine Belohnung (Rohstoffe, am Ende Diamanten).",
+    "🏅 Für alte Hasen: Bereits erreichte Ziele gelten als erledigt, deine Kette startet direkt bei der nächsten offenen Aufgabe. Belohnungen gibt es für alles, was du ab jetzt erreichst."
+  ],
+  "a159c7a5354123babdf2f4686d008547e094e1a4bfa6414523535226b2f443ce": [
+    "🎖️ Jeder neu erreichte Militär-Grad bringt ab sofort Diamanten: Grad 2 gibt 2 💎, Grad 5 gibt 5 💎, und so weiter bis zum Islandking (30 💎 für den letzten Schritt allein).",
+    "🎁 Zum Start gibt es die Belohnung rückwirkend: Alle bereits erreichten Grade wurden dir automatisch gutgeschrieben. Schau in deine Nachrichten!",
+    "📈 Im Hintergrund speichern wir ab jetzt täglich deinen Punkteverlauf. Damit kommen bald Wochen-Ranglisten und Verlaufs-Grafiken."
+  ],
+  "430c258c21dc0414b17aa86b790d4bc71fb7f721323b30eeebb6065214996a17": [
+    "🚢 Die Frachtschiffe wurden kräftig aufgewertet: Das kleine Frachtschiff trägt jetzt 300 statt 40, das grosse 1'500 statt 200 Rohstoffe pro Fahrt. Zusätzlich sinkt die Bauzeit beider Frachter um 10 %. Damit lohnt sich Logistik zwischen deinen Inseln wirklich.",
+    "📦 Grössere Frachter bedeuten auch: mehr Platz für Soldaten im Truppentransport und mehr Beute auf Plünderzügen. Die Piratenfestungen warten…",
+    "🔬 Das Forschungslabor beschleunigt jetzt wirklich: Jede Labor-Stufe senkt die Forschungszeit um 2 %, auf Maximalstufe 15 forscht ihr also 30 % schneller. Die Zeiten in Forschung und Zielplaner rechnen den Rabatt automatisch ein."
+  ],
+  "b336ed4faa0f050fd81faab241e6fd209e3c1da148dc78a2a24af6164aabb035": [
+    "🔍 Fahre auf der Insel-Seite mit der Maus über die Produktionsrate eines Rohstoffs: Du siehst jetzt die komplette Herleitung (Gebäude, Grundproduktion, Forschung, PowerUser, Event-Bonus und eventuelle Engpässe bei Arbeitern oder Strom).",
+    "🏆 Die Rangliste zeigt jetzt alle Spieler: blättere mit «Weiter/Zurück» über die Top 20 hinaus. Dazu siehst du, in wie vielen Minuten die Punkte das nächste Mal neu berechnet werden.",
+    "🏗️ Bei Gebäuden und Forschungen steht jetzt «Stufe 7 von 10», du siehst sofort, wie viele Ausbaustufen es insgesamt gibt.",
+    "🤝 Die Allianz-Führung wird nur noch nach einer Sicherheitsabfrage übergeben, ein versehentlicher Klick kostet dich nicht mehr den Anführer-Posten. Auch das Entfernen von Mitgliedern fragt jetzt nach.",
+    "🌳 Der Tech-Tree hat jetzt einen eigenen Eintrag im Aufbau-Menü."
+  ],
+  "45b8e70c776a6561e42af930464fcdada349765544028da62e1e09c1305cbe82": [
+    "📜 Das Seekarten-Papier hat jetzt eine feine Körnung, die Flächen wirken wärmer und weniger steril.",
+    "🔢 Rohstoffzahlen und Countdown-Timer stehen ruhig in der Spalte, statt bei jedem Tick zu springen.",
+    "⌨️ Wer mit der Tastatur navigiert, sieht jetzt einen Messing-Ring auf dem aktiven Element; Knöpfe geben beim Drücken spürbar nach."
+  ],
+  "651d762680ae95f9d116807e7f3191d3bec8607ad4f86472e71dad16889d56ac": [
+    "🏝️ Die Weltkarte zeigt jetzt 20 verschiedene Inseltypen: von der rauchenden Vulkaninsel über Eis-, Wüsten- und Pilzinseln bis zur geheimnisvoll leuchtenden Mystik-Insel. Schau dich um, welche Nachbarn du entdeckst!",
+    "🎯 Neue Spieler bekommen nach dem Tutorial automatisch ihr erstes Ziel angepinnt, der Einstieg führt jetzt direkt ins Zielsystem.",
+    "📌 Deine angepinnten Ziele erscheinen neu auch auf der Übersicht."
+  ],
+  "46ae41f69c0d829e48ed053f4fbe93b0054b17e6c733e0b6a4bebd942a20bc6e": [
+    "🎯 Im Tech-Tree-Zielplaner («Weg dahin») kannst du jetzt die Zielstufe frei wählen, z. B. von Stufe 2 direkt auf 10. Kosten, Bauzeit und Ansparzeit rechnen alle Zwischenstufen zusammen.",
+    "🚢 Bei Schiffen und Einheiten wählst du entsprechend die Stückzahl.",
+    "📌 Neu: Pinne bis zu 5 Ziele im Planer an: sie erscheinen dauerhaft mit Fortschritt, Restkosten und Bauzeit oben im Tech-Tree sowie auf der Insel- und der Forschungsseite (auf allen deinen Geräten)."
+  ],
+  "b05e4f2f9a5d176f4922d16cfc594ab91fdffd05b87b96ca3f5d136d9f321d2b": [
+    "🎨 Islandking hat ein komplettes Design-Update bekommen: warme Seekarten-Optik, neue Kunstwerke für Übersicht und alle Spielbereiche, und deine Kennzahlen als Bordinstrumente.",
+    "🧭 Die Navigation ist umgezogen: am Computer als Leiste oben (mit aufklappbaren Bereichen), auf dem Handy als Spiel-Tab-Bar unten. Deine Diamanten und Nachrichten hast du jetzt immer im Blick.",
+    "💬 Sag uns im Forum, wie dir das neue Design gefällt!"
+  ],
+  "1c8f7d4f6644798ae5f91d9227f4152cf44c2c569870ad82531afdd2d9149ac4": [
+    "💎 Rohstoff-Auffüllen mit Diamanten ist jetzt immer fair: Jeder Diamant bringt den vollen Gegenwert von 1'500 Rohstoffen. Was über den fehlenden Betrag hinausgeht, wandert als Bonus ins Lager.",
+    "❓ Neue FAQ-Einträge: „Wie erobere ich eine bewohnte Insel?\" und „Was bewirken die Allianz-Rollen?\"."
+  ],
+  "fa615b186e5c0471a1cba663117b16b96c2e173f07d7d22e4ebc86344071a6e8": [
+    "💠 PowerUser Platin bringt jetzt +30 % Produktion und Lagerkapazität (vorher +20 %).",
+    "💎 Neu exklusiv für Platin: 10 % Rabatt auf alle Diamant-Pakete."
+  ],
+  "bbd518c8957bc4fd25d82d1a456fb726b2b34f5c26041f6516481b22fd5c9f32": [
+    "🎯 Neuer „Weg dahin\"-Button im Tech-Tree: Wähle ein Gebäude oder eine Forschung als Ziel und du siehst den kompletten Weg dorthin: alle noch fehlenden Zwischenschritte in Baureihenfolge.",
+    "📦 Der Planer rechnet dir die Gesamtkosten und die Gesamtbauzeit aller offenen Schritte zusammen und zeigt, wann deine aktuelle Produktion die Rohstoffe beisammen hat.",
+    "🚢 Der Zielplaner funktioniert auch für Schiffe und Einheiten, inklusive der nötigen Werft bzw. Kaserne auf dem Weg dahin."
+  ],
+  "3149813154f4b87be2af6843b63b6ca399349891587b5afdbb733fdef6456ade": [
+    "🔬 Forschung: Noch gesperrte Forschungen werden jetzt angezeigt, samt der Voraussetzung, die dir noch fehlt.",
+    "✅ Vor dem Gebäude-Ausbau kannst du dir die Kosten bestätigen lassen (abschaltbar).",
+    "🏦 Allianz-Bank: Beim Einzahlen siehst du jetzt deine eigenen verfügbaren Rohstoffe.",
+    "❓ Neue Erklärungen (Hilfe & FAQ): wie deine Punkte entstehen, wie deine Bevölkerung wächst und was die Windmühle bringt.",
+    "🎓 Ausführlicheres Einsteiger-Tutorial mit klarem Fahrplan „was mache ich zuerst\".",
+    "📄 Unsere Spielbedingungen wurden aktualisiert (u. a. zu Haftung, Käufen und Verfügbarkeit), bitte kurz reinschauen."
+  ],
+  "3c8cf40d68146e0588bfe7c136e0d530d15e3b5703ce23c4cde492635f7f3cb3": [
+    "🏝️ Auf der Weltkarte sind freie Plätze jetzt mit einem ➕ markiert: tippe einen an, um dort mit einem Kolonieschiff eine neue Insel zu gründen."
+  ],
+  "42c2ed9ae3b71031cee84fc27f284aa3a503866d02e96855e7c26d5417849cc7": [
+    "❓ Neue FAQ-Seite mit Antworten auf häufige Fragen (z. B. mehrere Inseln, Punkte, Eroberung), erreichbar über den Footer.",
+    "📰 Dieses Update-Log: Ab jetzt halten wir hier fest, was wir wann geändert haben."
+  ],
+  "bc08f174b55b7d83c186cc926695acce1a2cc3219a848f67a9585c98f449e0e4": [
+    "💎 Rohstoffe lassen sich jetzt direkt mit Diamanten kaufen: in Paketen auf der Inselseite, gedeckelt ans Lager.",
+    "🔍 Tech-Tree: neues Suchfeld; Gebäude und Forschungen haben einen „🌳 Im Tech-Tree zeigen\"-Link.",
+    "📊 Produktionsrate: ausklappbare Erklärung, woraus sich deine Produktion zusammensetzt.",
+    "⚡ Strommangel drosselt die Produktion nur noch um 10 % (vorher 30 %).",
+    "🏪 Der Marktplatz schaltet jetzt den Handel frei; der Menüpunkt heißt neu „Handel\".",
+    "🧭 Aufgeräumtes Menü: Bereiche sind gruppiert, Spionage/Tech-Tree/Hall of Fame stecken als Tabs in Berichte/Forschung/Rangliste.",
+    "⚔️ Du bekommst jetzt eine Warnung im Dashboard, sobald dich jemand angreift."
+  ],
+  "21b61419ce5d37033cee344003c7255b3c987044eacdcf42c722e9759a1eb3c7": [
+    "🛠️ Schiffswerft, ⚓ Hafen und 🪖 Kaserne sind jetzt eigene Seiten im Menü, sichtbar, sobald du das jeweilige Gebäude besitzt.",
+    "Schiffe baust du in der Werft, Flotten (Angriff, Spionage, Transport, Kolonie) startest du im Hafen, Soldaten bildest du in der Kaserne aus."
+  ],
+  "3587a6e4d3e3dccfc9108188f5bdf1f1b9a188c2d160dee97cd3d6e7a0f352a9": [
+    "⚡ Neues Strom-/Energie-System: Haupthaus, Windmühle und Kraftwerke erzeugen Strom, andere Gebäude verbrauchen ihn. Eine Batterie-Anzeige zeigt deinen Stand.",
+    "🎖️ Die 30 originalen Militärränge (Matrose bis Islandking) sind zurück. Klicke auf deinen Grad in der Übersicht für die komplette Rangleiter samt Platzierung."
+  ]
+}
