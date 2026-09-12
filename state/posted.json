@@ -1,4 +1,10 @@
 {
+  "7c8202a42048a532d247cd262682a5e8555665afa8a6492eb53fe6d8c012c574": [
+    "⏳ Bei Gebäuden, Schiffen und Soldaten steht neben den Kosten, wann die Insel die fehlenden Rohstoffe selbst produziert hat («reicht in 2h 15m»).",
+    "🔒 Nach einem Umsturz zeigt die Inselseite, ab wann der nächste möglich ist, und der Knopf bleibt bis dahin gesperrt.",
+    "🏝️ Wer mehr als eine Insel hat, springt über das neue Menü «Inseln» in der Kopfzeile direkt zur gewünschten Insel.",
+    "🛒 Im Markt steht das Allianz-Kürzel des Verkäufers direkt beim Angebot."
+  ],
   "e836d2fb220975f3e1a6e92acdb9a5292f09086398890b055a36f5fc04d419ab": [
     "📊 Hafen: Beim Stationieren bei einem Verbündeten zeigt der Hafen jetzt live, wie viel Wert die Zielinsel noch aufnehmen kann. Grenze, belegt, deine Auswahl und der freie Rest passen sich mit jeder Änderung an, bevor du abschickst.",
     "⚓ Die schwere Galeere kostet 40'000 statt 60'000 Holz (Stein und Eisen unverändert). Sie war gemessen an ihrer Kampfkraft das schlechteste Geschäft im Mittelfeld. Kronrat-Entscheid,",
