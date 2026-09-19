@@ -1,4 +1,11 @@
 {
+  "7d60a78825f025e7bff1d23edbd898c50887eb5a9fc480ffba440be8e0f61619": [
+    "👻 Geistmodus: Wer eine Flotte auf eine verborgene Insel schickt, sieht in der eigenen Flottenliste weder Besitzer noch Inselname. Bisher liess sich der Geistmodus so aushebeln.",
+    "📜 Kampfbericht: Wer ohne Laderaum gewinnt, liest jetzt «Kein Laderaum in der Flotte, keine Beute» statt fälschlich «nur noch die geschützte Grundmenge». Die Sperrfrist nach einem Sieg gilt weiterhin auch ohne Beute, das ist Absicht.",
+    "🏦 Allianzbank: Erfolg und Fehler einer Ein- oder Auszahlung stehen jetzt direkt bei der Bank. Mitglieder ohne Abhebe-Recht sehen, an wen sie sich wenden müssen.",
+    "⏳ Forschung: Neben den Kosten steht wie bei Gebäuden, wann die Heimatinsel die fehlenden Rohstoffe selbst produziert hat.",
+    "🧱 Der Text zur Stadtmauer sagte «permanent». Sie fängt den grössten Teil des Schadens ab, kann aber wie jedes Verteidigungsgebäude geschleift werden."
+  ],
   "be0496e475afbc39814197d69fa5e736c7244ef4269b2fce0a8ce36fbc9de380": [
     "📜 Der Kronrat hat am 15. September beschlossen, was Diamanten künftig dürfen. Die Änderungen gelten ab dem 1. Oktober 2026, damit sich alle darauf einstellen können.",
     "⏳ Diamanten halbieren die Restzeit von Bau und Forschung nur noch einmal je Auftrag (1 💎 je angefangene 30 Minuten gesparter Zeit). «Sofort fertig» gibt es dann nicht mehr.",
