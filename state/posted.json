@@ -1,4 +1,7 @@
 {
+  "6b681c916d87a651f21f5fb8394589532c8e6c4b643078f0cee5dd7a282abbb5": [
+    "⚖️ Fehlt der geplünderten Insel eine Rohstoffsorte, wird der frei gewordene Laderaum jetzt gleichmässig auf die übrigen Sorten verteilt. Bisher ging der ganze Rest in Holz (gemeldet von OscarZulu)."
+  ],
   "7d60a78825f025e7bff1d23edbd898c50887eb5a9fc480ffba440be8e0f61619": [
     "👻 Geistmodus: Wer eine Flotte auf eine verborgene Insel schickt, sieht in der eigenen Flottenliste weder Besitzer noch Inselname. Bisher liess sich der Geistmodus so aushebeln.",
     "📜 Kampfbericht: Wer ohne Laderaum gewinnt, liest jetzt «Kein Laderaum in der Flotte, keine Beute» statt fälschlich «nur noch die geschützte Grundmenge». Die Sperrfrist nach einem Sieg gilt weiterhin auch ohne Beute, das ist Absicht.",
