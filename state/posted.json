@@ -1,4 +1,11 @@
 {
+  "832c5f9f728d487286b2b3705a1f0facf16b9b6b54f1c1cb182d67cf49fd9407": [
+    "👻 Geistmodus ist Tarnung, kein Schild: Deine Inseln sind auf der Karte verborgen und nicht ausspähbar, Angriffe auf bekannte Koordinaten bleiben möglich. Greifst du selbst an, endet dein Geistmodus sofort. Allianzmitglieder sehen deine Inseln weiterhin, samt Geist-Symbol.",
+    "🌳 Der Tech-Tree hat einen Insel-Umschalter und zeigt den Stand der gewählten Insel, nicht mehr immer die Hauptinsel (gemeldet von OscarZulu).",
+    "🚢 Die Reichsübersicht zählt Schiffe und Soldaten mit, die gerade unterwegs sind (gemeldet von OscarZulu).",
+    "⚡ Piratenfestungen haben jetzt Windmühlen und ein Kohlekraftwerk; eroberte Festungen wurden nachgerüstet (gemeldet von wantedasa).",
+    "📦 Die Übersicht meldet «Lager voll» erst, wenn es wirklich voll ist, nicht schon bei 99,6 Prozent (gemeldet von Jacktheripper1988manu)."
+  ],
   "984feafc00d6d1011e6d1b68b98318d4a710e742c8b56bc32fc3c4159fa989e2": [
     "📦 Ab sofort gibt jede Stufe der Forschung Handel 5 Prozent mehr Laderaum auf alle Schiffe. Handel 20 verdoppelt den Laderaum: kleiner Frachter 600, grosser 3'000. Der Bonus wird beim Absenden festgehalten und gilt für Transport und Beute.",
     "🛡️ Im Gegenzug bleiben bei Plünderungen 8 statt 5 Stunden eigener Produktion geschützt.",
