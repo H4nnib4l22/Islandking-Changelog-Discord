@@ -52,7 +52,7 @@ async function getChangelogChunkUrl() {
     throw new Error("Changelog-Chunk-Referenz nicht gefunden. Hat sich der Seitenaufbau geändert?");
   }
 
-  return `${BASE_URL}/assets/${chunkMatch[1]}`;
+  return { chunkUrl: `${BASE_URL}/assets/${chunkMatch[1]}`, mainJs };
 }
 
 /** Extrahiert das '[{date:...}, ...]'-Array-Literal aus dem minifizierten JS-Quelltext. */
@@ -190,11 +190,12 @@ async function main() {
     return;
   }
 
-  const chunkUrl = await getChangelogChunkUrl();
+  const { chunkUrl, mainJs } = await getChangelogChunkUrl();
   console.log(`Changelog-Chunk gefunden: ${chunkUrl}`);
 
+  // Seit 2026-09-29 liegen die Daten im Haupt-Bundle, der Chunk importiert sie nur noch.
   const chunkSrc = await fetchText(chunkUrl);
-  const arrayLiteral = extractArrayLiteral(chunkSrc);
+  const arrayLiteral = extractArrayLiteral(/\[\{date:/.test(chunkSrc) ? chunkSrc : mainJs);
   const entries = parseEntries(arrayLiteral);
   console.log(`${entries.length} Einträge im Changelog gefunden.`);
 
