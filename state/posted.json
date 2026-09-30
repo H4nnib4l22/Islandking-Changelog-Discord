@@ -1,4 +1,15 @@
 {
+  "4bb9b8d179caea040477d39a3872f16577b1fe779197501de6c21c9002203523": [
+    "🏝️ Die Inselkarten auf der Übersicht und der Kopf der Inselansicht zeigen jetzt das Bild deiner Insel, dasselbe wie auf der Karte.",
+    "⚡ Die App fragt den Server seltener und gezielter ab: nur die Insel, auf der sich etwas getan hat, und gar nicht, solange der Tab im Hintergrund liegt. Beim Zurückkehren wird einmal nachgeladen."
+  ],
+  "6d4b40d3802bfdd6e54638fb6b96bec30a42131b3d027eea2916d46b1b657010": [
+    "🩹 In der Kaserne heilt «Alle heilen» sämtliche Verwundeten der Insel auf einmal, die leicht Verwundeten zuerst. Reichen die Rohstoffe nicht, wird geheilt, was geht.",
+    "🗑 In der Werft lassen sich beschädigte Schiffe verschrotten statt reparieren: 30 Prozent der Baukosten abzüglich des Schadens.",
+    "🛡 Die Rohstoffkarten der Insel zeigen, wie viel je Rohstoff bei einer Plünderung immer geschützt bleibt.",
+    "‹ › Pfeile neben dem Inselnamen wechseln zur vorigen und nächsten Insel, ohne Umweg über die Übersicht.",
+    "⚔️ Flotten unterwegs zeigen auf der Übersicht Gesamtangriff und Trefferpunkte."
+  ],
   "ef149316cbc01c8f936c9fb143cdd1fbe9df9cbac5b9e9cfdc342f65d5df7c54": [
     "🤝 Stationierte Einheiten bei Verbündeten lassen sich jetzt auch teilweise zurückrufen: auf der Übersicht «teilweise» wählen, Mengen je Einheit eintragen, der Rest bleibt beim Gastgeber."
   ],
