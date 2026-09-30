@@ -1,4 +1,7 @@
 {
+  "d3ea2267ced93ac634df8f9bf9955bf0b43bdab98f8b7ca7c42c34f58ee3081c": [
+    "👻 Endet der Geistmodus vorzeitig, weil du selbst angreifst, zählt die Pause bis zur nächsten Aktivierung jetzt ab diesem Ende: 4 Stunden bei Platin, 16 bei Gold. Bisher lief die Abklingzeit stur ab dem Start. Bei regulärem Ablauf ändert sich nichts."
+  ],
   "4bb9b8d179caea040477d39a3872f16577b1fe779197501de6c21c9002203523": [
     "🏝️ Die Inselkarten auf der Übersicht und der Kopf der Inselansicht zeigen jetzt das Bild deiner Insel, dasselbe wie auf der Karte.",
     "⚡ Die App fragt den Server seltener und gezielter ab: nur die Insel, auf der sich etwas getan hat, und gar nicht, solange der Tab im Hintergrund liegt. Beim Zurückkehren wird einmal nachgeladen."
