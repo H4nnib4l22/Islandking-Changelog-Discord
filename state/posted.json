@@ -1,7 +1,8 @@
 {
   "e30a5830120ff501e36a1c97dad99ffb723e6ba28e4b884bde843a7e0c2c0de4": [
     "🛡 Die Inselverteidigung zeigt jetzt auch, woher die Widerstandskraft kommt, und nennt die stehenden Verteidigungsgebäude mit Stufe. Die Stadtmauer ist damit sichtbar, auch wenn ausgebaute Gebäude ausgeblendet sind.",
-    "🪖 Beim Teilrückruf stationierter Truppen brauchen Soldaten Platz auf den mitgewählten Schiffen (Truppenplätze und Laderaum), wie beim Absenden. Liegen dort keine eigenen Schiffe mehr, kommen die Soldaten weiterhin heim."
+    "🪖 Stationierte Soldaten fahren nur noch mit Schiffen heim: Sie brauchen Platz auf den mitfahrenden Schiffen (Truppenplätze und Laderaum), wie beim Absenden. Beim Rückruf von allem bleibt stehen, wer keinen Platz findet. Liegen dort keine eigenen Schiffe mehr, stationiere Transporter und rufe dann zurück.",
+    "🚣 Müssen deine Truppen eine Insel verlassen (Bündnisende, der Gastgeber schickt sie heim, die Insel wird erobert), rudern Soldaten ohne Schiff nach Hause. Das dauert viermal so lange wie eine Frachterfahrt, verloren geht niemand."
   ],
   "0d95faf15de6b2e20dbfd3086288acaaea45ccf6a1b20c61af49618672dcc13b": [
     "⚔️ Angriff, Trefferpunkte und die Ladung einer Flotte stehen auf der Übersicht in einer eigenen Zeile. Vorher hingen sie hinter der Schiffsliste und waren bei mehreren Schiffstypen abgeschnitten, am Handy wie am PC."
