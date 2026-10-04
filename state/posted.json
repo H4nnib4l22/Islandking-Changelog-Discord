@@ -1,4 +1,13 @@
 {
+  "c8de1c9965baaeec3649ed6c6c436a2a683f5848ccb4a21b5be0d6c743cfa578": [
+    "⚖️ Auf dem Markt wählst du jetzt die Handelsinsel, sobald mehrere deiner Inseln einen Marktplatz haben. Bezahlt und geliefert wird auf der gewählten Insel. Vorher lief jeder Handel über die Hauptinsel.",
+    "⚔️ Werft und Kaserne zeigen die Gesamtstärke der einsatzbereiten Schiffe und Soldaten der Insel (Angriff und Verteidigung).",
+    "🔔 Der Zähler für neue Beiträge am Allianz-Board ist jetzt gut lesbar."
+  ],
+  "216bc34cb525998d8cff8c7aedc8ac9f7b16933e041c8944b64adf29885154c6": [
+    "📦 Beim Verlegen von Schiffen auf eine eigene Insel kannst du jetzt Rohstoffe mitgeben (Holz, Stein, Eisen, Kohle). Sie werden bei der Ankunft ins Lager der Zielinsel geladen, die Schiffe bleiben dort stationiert.",
+    "↩️ Passt nicht alles ins Lager, fahren so viele Schiffe wie nötig mit dem Rest zurück, die übrigen bleiben stationiert. Zu Verbündeten gehen Rohstoffe weiterhin über den Transport."
+  ],
   "da4e34cc681a57de86952d1fbdb1ade6d18c088c6843a155e6a912fa25008871": [
     "🔔 Kommt die App oder der Tab nach einer Pause wieder nach vorne, holen die Zähler für Berichte und Nachrichten nach, was in der Zwischenzeit passiert ist. Vorher blieb das rote Zeichen bei neuen Spähberichten aus, bis man die Seite neu lud.",
     "🔨 In Werft und Kaserne behält der Knopf zum Bauen und Ausbilden seine Breite, wenn du die Stückzahl hochzählst. Das Zahlenfeld rutscht nicht mehr weg und ein schneller Klick startet nicht mehr versehentlich den Bau."
