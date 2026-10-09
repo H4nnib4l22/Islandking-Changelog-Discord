@@ -1,4 +1,51 @@
 {
+  "9ef8c6f279c350a2f169df73d1a8c26f504606ec67f4174f0fa2c1f07894ed34": [
+    "⚔️ Das Kampfkonzept 2.0 ist live. Alles, was seit dem 28. September auf dem Testserver lief, gilt ab heute im Spiel: Seeschlacht und Landung, Verteidigungsanlagen, Trefferquote, Kohle als Baustoff, Trümmerfeld und Bombardement, Befestigung, Konvois, Kronen und Münzprägerei, Flotten entern, Auflegen in der Werft und die Reparatur in Raten. Die Einträge darunter beschreiben die Einzelheiten.",
+    "👑 Startguthaben: Jedes Konto, das in den letzten 30 Tagen eingeloggt war, hat einmalig 150 Kronen auf der Hauptinsel erhalten. Das deckt Gericht, Kraftwerke, Terraforming, Reichtum und Ritter, nicht aber Fregatte (350) oder Schlachtschiff (500). Wer später zurückkehrt oder neu anfängt, startet wie im Original ohne Kronen.",
+    "🚢 Schlachtschiffe brauchen ab jetzt Kampfschiff 25, Royal Angriff 5 und 500 Kronen; bisher gab es keine Voraussetzung. Laufende Bauaufträge werden normal fertig, bestehende Schiffe bleiben. Bestehende Turmstufen wurden 1:1 in Verteidigungsanlagen umgewandelt."
+  ],
+  "d39db03ce699f4d9836e6f3eef2fe3b87fab0abd89b4fbe9559c597cdcc534f3": [
+    "⚓ Ein Inselangriff hat jetzt zwei Phasen. Zuerst kämpfen die Schiffe gegen die Schiffe im Hafen und die See-Anlagen. Ist die See frei und sind Truppen an Bord, landen sie und kämpfen gegen Soldaten, Land-Anlagen und Stadtmauer. Die Schiffe bombardieren dabei mit 75 Prozent ihres Angriffs und werden mitgetroffen.",
+    "🏰 Türme sind keine Gebäude mehr, sondern Verteidigungsanlagen, die du in der Burg beliebig oft baust: Wachturm, Katapult, Küstenkanone, Kanonenturm und Wasserblockade. Jede Anlage kostet gleich viel, nimmt im Kampf Schaden wie ein Schiff und lässt sich reparieren. Bestehende Turmstufen wurden 1:1 in Anlagen umgewandelt.",
+    "🚧 Die Wasserblockade sperrt den Hafen: Solange eine die Seeschlacht übersteht, gibt es weder Landung noch Beute.",
+    "💰 Wer nur die See freikämpft, nimmt 25 Prozent seines Laderaums als Hafenplünderung mit. Volle Beute gibt es erst nach dem Landsieg.",
+    "🪖 Eroberung braucht neben dem Kolonieschiff eine Garnison: ein Soldat je Gebäudestufe der Insel, mindestens 50. Sie geht nach dem Sieg von Bord und hält die Insel.",
+    "🏳️ Rückzug: Verliert der Angreifer in einer Phase 90 Prozent seiner Trefferpunkte, bricht er ab. Neue Kolonien starten mit 20 Wachtürmen und 3 Küstenkanonen.",
+    "🎯 Treffsicherheit: Nicht jeder Schuss trifft. Jede Seite hat eine Trefferquote von 60 Prozent. Die Angriffs-Forschungen zählen jetzt im Kampf: Standard Angriff 1 Prozent, Fortgeschrittener Angriff 2 Prozent und Royal Angriff 5 Prozent je Stufe. Dazu schwankt die Quote je Runde um bis zu 10 Prozent. Der Kampfbericht zeigt die Quoten, der Rechner den Erwartungswert sowie den besten und schlechtesten Fall.",
+    "🧮 Kampfrechner und Spähbericht kennen die Anlagen und zeigen den Ausgang beider Phasen. Alle Werte sind Regler im ACP."
+  ],
+  "cfbb865a5b3aba130f3122c87462e3a5c0391940fe07e0cc836b8d7a5789e7cb": [
+    "🔥 Das Kohlekraftwerk verbrennt Kohle: 2 Kohle je Stufe und Stunde, wie im alten Islandking. Ist keine Kohle im Lager, steht es still und sein Strom fehlt. Die Insel zeigt Verbrauch, Zustand und Reichweite des Vorrats beim Energiehaushalt.",
+    "⚒️ Schiffe, Soldaten und Verteidigungsanlagen kosten neben Holz, Stein und Eisen wieder Kohle. Schiffe und Anlagen kosten das Dreifache der alten Katalogwerte: leichte Galeere 60, schwere Galeere 500, grosser Frachter 1'800, Fregatte 11'000, Schlachtschiff 15'000, Wachturm 300, Kanonenturm 15'000. Soldaten kosten die alten Werte: Kanoniere 150, Ritter 250. Reparatur und Verschrottung rechnen die Kohle mit.",
+    "📦 Nebenbei behoben: Beim Absenden eines Transports wurde Kohle nicht von der Startinsel abgezogen.",
+    "⛏️ Das Kohlebergwerk ist leichter zu haben: ab Haupthaus 5 und Steinbruch 10 statt Haupthaus 10, Steinbruch 25 und Forschungslabor 15, zum Drittel der bisherigen Kosten, mit 8 statt 5 Kohle Grundförderung je Stunde. Die Forschung Reichtum zählt jetzt auch für Kohle."
+  ],
+  "f64a308a6726b585a87fab4d756f591617c14b3e2276cf0b2a7c4d57d64b17e6": [
+    "🌊 Trümmerfeld: Sinken in einer Schlacht mindestens 5 Schiffe, liegt 6 Stunden ein Trümmerfeld vor der Insel. Angriffsflotten anderer Spieler, die erst danach ablegen, kehren ohne Kampf um; wer schon unterwegs war, kommt durch, ebenso der erste Angreifer. Der Hafen warnt beim Absenden, Karte und Spähbericht zeigen die Restzeit. Ein natürlicher Bashing-Schutz.",
+    "🏚️ Bombardement: Nach einem Landsieg schlagen 10 Prozent der Restkraft in die Gebäude ein. Jede Stufe hat Trefferpunkte aus ihren Baukosten durch 100, reicht die Kraft, fällt das Gebäude um eine Stufe. Höchstens eine Stufe je Gebäude, 3 je Angriff und 6 je Insel und Tag. Haupthaus, Siedlungen und Verteidigungsgebäude sind tabu. Beim Absenden wählst du den Schwerpunkt: Produktion, Militär oder Wirtschaft.",
+    "🎬 Die Kampfwiedergabe zeigt das Bombardement als dritte Phase: Die überlebende Flotte beschiesst die getroffenen Gebäude, jeder Einschlag nimmt eine Stufe."
+  ],
+  "ae31318a3f115e17e90a291e9af543f1e6d679f439deaf29073c10f72bdf4d0a": [
+    "🧱 Die Verteidigungs-Forschungen härten die Insel: Standard Verteidigung 1, Fortgeschrittene 3, Royal 5 Prozent mehr Trefferpunkte je Stufe für Anlagen und Stadtmauer. Der Kampfbericht nennt den Bonus, der Rechner hat ein Feld dafür.",
+    "🏴‍☠️ Piraten-Konvois tragen 5 bis 10 Prozent ihres Schiffswerts als Ladung, der stärkste rund 90'000 bis 190'000. Der Kampfbericht zeigt die gekaperten Schiffe. Der Kampfrechner kann wieder Entern."
+  ],
+  "35db527ef485e943c9c869886accf4651b4a83caf62ff27c510318c2d8bf6fa2": [
+    "👑 Die Kronen sind zurück. Die Münzprägerei prägt aus Gold und Kohle Kronen (je Krone 200 Gold, 70 Kohle, Stufe 2 doppelt so schnell). Kronen liegen auf der Insel, haben keine Lagergrenze und stehen in der Rohstoffleiste. Du findest die Münzprägerei unter Aufbau und auf der Inselseite.",
+    "⚓ Kronen fahren im Transport und beim Verlegen mit (eine Krone, ein Platz), gehen in die Allianzbank und auf den Markt. Sie sind plünderbar, auch aus Marktangeboten, und lassen sich nicht mit Diamanten kaufen.",
+    "🚢 Das Schlachtschiff kostet 500 Kronen und braucht Kampfschiff 25 und Royal Angriff 5. Nach dem Vorbild von früher kosten auch Fregatte, Gaia-Aufwertung, Terraforming, Gericht, Kraftwerke, Laden, Bank, Technologiezentrum, Reichtum, Kanonenturm, Wasserblockade und Ritter Kronen.",
+    "🪙 Eisen heisst wieder Gold, wie im Original. Nur der Name, an Mengen und Preisen ändert sich nichts.",
+    "🏗 Tote Stufen bekommen eine Wirkung: Jede Werftstufe baut Schiffe 1 Prozent schneller, jede Stufe der Schiffklasse Transporter über 10 macht Frachter 1 Prozent schneller, und das Technologiezentrum ist Voraussetzung für die Royal-Forschungen."
+  ],
+  "e3199e8c4ec3137b9d64cc52f8256604e9ef4120a73182e4102a839d8ce03557": [
+    "⚓ Auflegen in der Werft, wie im Original: Im Hafen lassen sich einsatzbereite Schiffe in die Werft legen, je Werft-Stufe 10. Aufgelegte Schiffe sind nicht enterbar und nicht einsetzbar; das Klarmachen dauert 30 Minuten. Greift jemand die Insel an, holt der Kampf sie aus der Werft und sie kämpfen mit. Der Spähbericht nennt aufgelegte Schiffe getrennt.",
+    "🎯 Forschungsgewichte wie im Original: Standard 1, Fortgeschrittene 2, Royal 5 Prozent je Stufe, für Angriff (Trefferquote) und Verteidigung (Befestigung) gleich.",
+    "⚓ Flotten entern ist zurück, nach dem Vorbild von 2003: Ziel sind die Schiffe im Hafen einer fremden Insel, eigene wie stationierte Gäste. Eine Salve der Schiffe gegen Hafenschiffe und See-Anlagen, dann kämpfen die Soldaten an Bord gegen die Besatzung (die Garnison, so weit sie auf die Hafenschiffe passt). Wer eine grosse Flotte ohne Garnison liegen lässt, verliert sie.",
+    "🏴 Bei Sieg wechselt die Hälfte der überlebenden Hafenschiffe den Besitzer, die wertvollsten zuerst. Je gekapertes Schiff bleibt eine Prisenbesatzung an Bord (Truppenplätze des Schiffs, mindestens 5 Soldaten). Die Beute liegt mit 25 Prozent Schaden im Heimatdock. Voraussetzung ist Kampfschiff Stufe 10. Keine Landung, keine Plünderung, keine Eroberung.",
+    "🔭 Der Spähposten meldet Enterflotten im Anmarsch, die Inselseite zählt sie zu den Angriffen. Der Kampfbericht zeigt Salve, Enterkampf, Besatzung und Beute, der Kampfrechner hat den Modus «Flotte entern», und die Spielregeln nennen die Werte."
+  ],
+  "c9f49c7c74a23905eefac64e7eed1d45f1e67283afac32f4c4700889e8679404": [
+    "🔧 Beschädigte Schiffe, Verteidigungsanlagen und verwundete Soldaten lassen sich jetzt auch teilweise reparieren bzw. heilen: Ab zwei Einheiten je Schadensgrad gibt es ein Mengenfeld, Kosten und Rohstoffprüfung passen sich der gewählten Anzahl an. Wer eine ganze Prise auf einmal nicht bezahlen kann, repariert Schiff für Schiff."
+  ],
   "bd4715deda3672d65bdb05e20303a687b33f8cadb9ef126c27b6b3833960c8b1": [
     "☠️ Die Piratenfestungen bauen wieder regelmässig Schiffe und laufen wieder zu Überfällen aus. Ein Fehler hatte ihre Werften seit einiger Zeit fast stillgelegt. Die Vorwarnung, die Nachtruhe und die Sperrfrist je Insel gelten unverändert."
   ],
@@ -41,9 +88,8 @@
   "d3ea2267ced93ac634df8f9bf9955bf0b43bdab98f8b7ca7c42c34f58ee3081c": [
     "👻 Endet der Geistmodus vorzeitig, weil du selbst angreifst, zählt die Pause bis zur nächsten Aktivierung jetzt ab diesem Ende: 4 Stunden bei Platin, 16 bei Gold. Bisher lief die Abklingzeit stur ab dem Start. Bei regulärem Ablauf ändert sich nichts."
   ],
-  "4bb9b8d179caea040477d39a3872f16577b1fe779197501de6c21c9002203523": [
-    "🏝️ Die Inselkarten auf der Übersicht und der Kopf der Inselansicht zeigen jetzt das Bild deiner Insel, dasselbe wie auf der Karte.",
-    "⚡ Die App fragt den Server seltener und gezielter ab: nur die Insel, auf der sich etwas getan hat, und gar nicht, solange der Tab im Hintergrund liegt. Beim Zurückkehren wird einmal nachgeladen."
+  "ef149316cbc01c8f936c9fb143cdd1fbe9df9cbac5b9e9cfdc342f65d5df7c54": [
+    "🤝 Stationierte Einheiten bei Verbündeten lassen sich jetzt auch teilweise zurückrufen: auf der Übersicht «teilweise» wählen, Mengen je Einheit eintragen, der Rest bleibt beim Gastgeber."
   ],
   "6d4b40d3802bfdd6e54638fb6b96bec30a42131b3d027eea2916d46b1b657010": [
     "🩹 In der Kaserne heilt «Alle heilen» sämtliche Verwundeten der Insel auf einmal, die leicht Verwundeten zuerst. Reichen die Rohstoffe nicht, wird geheilt, was geht.",
@@ -52,8 +98,9 @@
     "‹ › Pfeile neben dem Inselnamen wechseln zur vorigen und nächsten Insel, ohne Umweg über die Übersicht.",
     "⚔️ Flotten unterwegs zeigen auf der Übersicht Gesamtangriff und Trefferpunkte."
   ],
-  "ef149316cbc01c8f936c9fb143cdd1fbe9df9cbac5b9e9cfdc342f65d5df7c54": [
-    "🤝 Stationierte Einheiten bei Verbündeten lassen sich jetzt auch teilweise zurückrufen: auf der Übersicht «teilweise» wählen, Mengen je Einheit eintragen, der Rest bleibt beim Gastgeber."
+  "4bb9b8d179caea040477d39a3872f16577b1fe779197501de6c21c9002203523": [
+    "🏝️ Die Inselkarten auf der Übersicht und der Kopf der Inselansicht zeigen jetzt das Bild deiner Insel, dasselbe wie auf der Karte.",
+    "⚡ Die App fragt den Server seltener und gezielter ab: nur die Insel, auf der sich etwas getan hat, und gar nicht, solange der Tab im Hintergrund liegt. Beim Zurückkehren wird einmal nachgeladen."
   ],
   "2edf85447bf223ccf7a727a5d40b0fa0fa08346d096145431c6cfb46d421d440": [
     "⏱ Der Hafen zeigt vor dem Absenden die Reisezeit und die ungefähre Ankunft, sobald Schiffe und Ziel gewählt sind: bei Angriff, Spähen, Transport, Stationieren, Kolonisieren und Entern. Massgebend ist das langsamste gewählte Schiff.",
