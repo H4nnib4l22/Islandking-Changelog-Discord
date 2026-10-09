@@ -1,4 +1,12 @@
 {
+  "3c7c40ebceb0b8f982882d454d7710712c659bf7333df88bd89c88d7ebc98550": [
+    "🚩 Flottengruppen im Hafen: Speichere eine Zusammenstellung aus Schiffen und Soldaten unter einem Namen. «Übernehmen» füllt damit das Angriffs-, Enter-, Transport- oder Stationierungsformular, «Auflegen» und «Klarmachen» wirken auf die ganze Gruppe. Die Einheiten bleiben frei, die Gruppe ist eine Merkliste.",
+    "↩ Beim Rückruf stationierter Einheiten wählst du die Zielinsel; ohne Wahl fahren sie wie bisher zur Hauptinsel.",
+    "🔥 Das Kohlekraftwerk hat einen Schalter: Abgeschaltet verbrennt es keine Kohle und liefert keinen Strom.",
+    "⚔️ Wer Einheiten bei Verbündeten stationiert hat, bekommt bei einem Kampf dort eine Nachricht mit seinen Verlusten.",
+    "⚓ «max»-Knöpfe beim Auflegen und Klarmachen in der Werft.",
+    "🏝️ Inselnamen: erlaubt sind Buchstaben, Ziffern, Leerzeichen und übliche Satz- und Symbolzeichen, höchstens 40 Zeichen. Keilschrift und Emoji sind draussen, bestehende Namen wurden nur um solche Zeichen bereinigt."
+  ],
   "8ccf288ad7b55dd5225ebe17353e351c71de7cc8b502f7eee2d73d0c5f7308d5": [
     "🔎 Hinweistexte, Beschriftungen, Links und Statusfarben im hellen Thema sind deutlich dunkler und erfüllen jetzt den Kontrastwert 4,5 auf Pergament und Karten. Die Flächen und der Nachtmodus bleiben, wie sie sind."
   ],
