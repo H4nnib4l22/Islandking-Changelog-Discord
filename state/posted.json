@@ -1,4 +1,7 @@
 {
+  "6997569e84e92b95bf5f35a0f8e373553c4395fbaaac71cca61fcd438a28fdfa": [
+    "⚓ Beim Entern zählt der Schutz je Schiffsbesitzer, nicht je Insel. Eine Enterflotte darf los, sobald ein Schiffsbesitzer im Zielhafen (Gastgeber oder Gast) ein gültiges Ziel ist. Schiffe von Spielern im Anfängerschutz, im Urlaub, unter dem Bashing-Faktor oder aus dem eigenen Bündnis kämpfen nicht mit und werden nicht gekapert. Parken bei kleinen Verbündeten schützt die eigene Flotte damit nicht mehr."
+  ],
   "3c7c40ebceb0b8f982882d454d7710712c659bf7333df88bd89c88d7ebc98550": [
     "🚩 Flottengruppen im Hafen: Speichere eine Zusammenstellung aus Schiffen und Soldaten unter einem Namen. «Übernehmen» füllt damit das Angriffs-, Enter-, Transport- oder Stationierungsformular, «Auflegen» und «Klarmachen» wirken auf die ganze Gruppe. Die Einheiten bleiben frei, die Gruppe ist eine Merkliste.",
     "↩ Beim Rückruf stationierter Einheiten wählst du die Zielinsel; ohne Wahl fahren sie wie bisher zur Hauptinsel.",
