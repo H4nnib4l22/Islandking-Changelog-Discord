@@ -1,4 +1,8 @@
 {
+  "fc2127d72f2a836b4ec5131642a1c4e6934bd9064a5cd24535b83c2a3dc63f84": [
+    "⚓ «Entern» gibt es jetzt direkt auf der Karte und im Spähbericht (wenn dort Schiffe im Hafen stehen). Der Knopf springt in den Hafen und trägt das Ziel ein.",
+    "⏳ Schiffe, die aus der Werft klargemacht werden, stehen im Hafen gross mit Stückzahl und Restzeit, dazu ein Hinweis über der Liste. Auch die Werft zeigt sie. Vorher wirkten sie 30 Minuten lang verschwunden."
+  ],
   "6997569e84e92b95bf5f35a0f8e373553c4395fbaaac71cca61fcd438a28fdfa": [
     "⚓ Beim Entern zählt der Schutz je Schiffsbesitzer, nicht je Insel. Eine Enterflotte darf los, sobald ein Schiffsbesitzer im Zielhafen (Gastgeber oder Gast) ein gültiges Ziel ist. Schiffe von Spielern im Anfängerschutz, im Urlaub, unter dem Bashing-Faktor oder aus dem eigenen Bündnis kämpfen nicht mit und werden nicht gekapert. Parken bei kleinen Verbündeten schützt die eigene Flotte damit nicht mehr."
   ],
