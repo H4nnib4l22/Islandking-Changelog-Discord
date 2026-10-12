@@ -1,4 +1,12 @@
 {
+  "4e338feb96d394213e163ad2645673adf5551a6a318baebd9b492452704d2883": [
+    "🏴‍☠️ Gekaperte Piratenschiffe bleiben während des Klarmachens im Hafen sichtbar. Bisher verschwand die Zeile für 30 Minuten, die Schiffe waren aber nie weg.",
+    "🛟 Beschädigte Schiffe lassen sich in der Werft wieder einzeln reparieren. Die Prüfung «Nicht genügend Rohstoffe» rechnete fälschlich mit dem Preis für alle Schiffe.",
+    "👑 Allianzbank: Die Gebühr auf Kronen rundet jetzt zugunsten des Einzahlers. Eine einzelne Krone kam bisher als 0 an.",
+    "📦 Transportflotten zeigen auf der Übersicht auch Kohle und Kronen in der Ladung.",
+    "👑 Kronen stehen jetzt im Reich je Insel und als Summe, auf den Inselkarten der Übersicht und in der Forschungsmaske.",
+    "🚢 Der Knopf «Transport losschicken» im Hafen hatte keinen Hintergrund und war erst beim Überfahren lesbar."
+  ],
   "e0304ba8f017ecd06519fb9cfb2af686ee400576caa299548e898b7f8991ee82": [
     "📊 Die Spielleitung kann alle Spieler befragen. Laufende Umfragen stehen auf der Übersicht und unter Mehr → Umfragen; eine Stimme je Konto, bis zum Ende änderbar, optional mit Kommentar. Ergebnisse siehst du je nach Umfrage nach deiner Stimme oder nach dem Ende."
   ],
