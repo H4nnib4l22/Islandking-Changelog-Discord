@@ -1,4 +1,7 @@
 {
+  "bfec3090147bc2b5906aaca506a53cca971f1c9c9a89a72ad0126bf02ae48872": [
+    "🚢 Kehrt eine Flotte zu einer Insel zurück, die inzwischen erobert wurde, weicht sie auf deine Hauptinsel aus, mit Schiffen, Soldaten und Ladung, und du bekommst eine Nachricht. Bisher landete sie im Hafen des Eroberers."
+  ],
   "4e338feb96d394213e163ad2645673adf5551a6a318baebd9b492452704d2883": [
     "🏴‍☠️ Gekaperte Piratenschiffe bleiben während des Klarmachens im Hafen sichtbar. Bisher verschwand die Zeile für 30 Minuten, die Schiffe waren aber nie weg.",
     "🛟 Beschädigte Schiffe lassen sich in der Werft wieder einzeln reparieren. Die Prüfung «Nicht genügend Rohstoffe» rechnete fälschlich mit dem Preis für alle Schiffe.",
