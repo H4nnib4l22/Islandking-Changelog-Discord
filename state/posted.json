@@ -1,4 +1,12 @@
 {
+  "770f4b607654b54295680a857d7ae07838109f6043b04bce1ee7be9afccfac56": [
+    "⚓ Wie viele Soldaten je gekapertem Schiff an Bord bleiben, ist jetzt ein Prozentsatz seiner Truppenplätze (mindestens 5) und steht in den Spielregeln. Heute 100 Prozent, also wie bisher: Eine Fregatte braucht 500 Mann. Der Kronrat legt den Wert fest, damit auch Kriegsschiffe kaperbar werden."
+  ],
+  "aad1f0c450a838d5555c188721e298e2fd6098106d1e60abf864537e8f088c2a": [
+    "⏳ Die laufenden Aufträge auf der Übersicht lassen sich mit einem Klick auf den Titel einklappen. Eingeklappt steht nur noch die Anzahl und der nächste fertige Auftrag da. Der Zustand bleibt im Browser erhalten.",
+    "🧭 Mit vielen offenen Tabs oder Fenstern lädt nur noch der zuletzt angeklickte Tab von sich aus nach, die anderen holen es nach, sobald sie den Fokus bekommen. Die Übersicht holt alle Inseln in einer Anfrage statt je Insel einzeln.",
+    "🔑 Läuft die Anmeldung ab, erneuert sie nur noch ein Tab, die anderen übernehmen sie. Vorher konnten sich die Tabs gegenseitig abmelden."
+  ],
   "b7b4fc918473d0e6de3363ab49a5218dbfda8a783a60555e64e50f1940d89624": [
     "🤝 Gründer und Co-Anführer sehen in der Mitgliederliste, wann jedes Mitglied zuletzt eingeloggt war.",
     "🧭 Tech-Tree, Markt und Forschung haben jetzt ebenfalls den Link «Zurück zur Insel», zur gewählten oder zuletzt besuchten Insel."
